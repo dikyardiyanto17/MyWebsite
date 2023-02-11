@@ -1,0 +1,11 @@
+#movinganimation {
+    width: 200%;
+    animation: shape 10s ease-in-out infinite;
+}
+
+@keyframes shape {
+    0% {left: 0;}
+    50% {left: -50%}
+    100% {left: 0;}
+  }
+  

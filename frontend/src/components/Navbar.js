@@ -1,18 +1,18 @@
-import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../assets/Navbar.css'
 import '../App.css';
+import { Link } from 'react-router-dom';
+import MyLogo from '../assets/MyLogo.png'
 
 
 function NavScrollExample() {
   return (
-    <Navbar style={{position: 'absolute', width: '100vw', backgroundColor: '#03001C', color: '#5B8FB9', height: '15vh', display: 'block'}}>
-      <Container fluid >
-        <Navbar.Brand style={{color: '#5B8FB9'}}>Logo</Navbar.Brand>
+    <Navbar style={{position: 'fixed', width: '100vw', backgroundColor: '#03001C', color: '#5B8FB9', height: '10vh', display: 'block'}}>
+      <Container fluid>
+        <Navbar.Brand style={{color: '#5B8FB9'}}><img src={MyLogo} style={{width: '50px'}} /></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll"/>
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -20,31 +20,21 @@ function NavScrollExample() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1" style={{color: '#5B8FB9'}}>Home</Nav.Link>
-            <Nav.Link href="#action2" style={{color: '#5B8FB9'}}>Link</Nav.Link>
-            <NavDropdown title="Link" id="navbarScrollingDropdown" style={{color: '#5B8FB9'}}>
-              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Another action
+            <Link to="" style={{color: '#5B8FB9', margin: 'auto', textDecoration: 'none'}}>Home</Link>
+            <Link style={{color: '#5B8FB9', margin: 'auto', marginLeft: '15px', textDecoration: 'none'}}>My Novel</Link>
+            <NavDropdown title="Reach Me" id="navbarScrollingDropdown" style={{color: '#5B8FB9', marginLeft: '15px'}}>
+              <NavDropdown.Item href="https://www.linkedin.com/in/diky/" target="_blank">Linkedin</NavDropdown.Item>
+              <NavDropdown.Item href="mailto:dikyardiyanto17@gmail.com" target="_blank">
+                Email
               </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Something else here
+              <NavDropdown.Item href="https://github.com/dikyardiyanto17" target="_blank">
+                Github
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#" disabled style={{color: '#5B8FB9'}}>
-              Link
-            </Nav.Link>
+            <Link to='/myworks'  style={{color: '#5B8FB9', margin: 'auto', marginLeft: '15px', textDecoration: 'none'}}>
+              My Works
+            </Link>
           </Nav>
-          <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success" >Search</Button>
-          </Form>
         </Navbar.Collapse>
       </Container>
     </Navbar>

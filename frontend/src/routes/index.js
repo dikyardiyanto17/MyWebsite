@@ -1,6 +1,8 @@
 import { createBrowserRouter } from 'react-router-dom'
-import Index from '../views/Index';
+import Home from '../views/Home';
 import Layout from '../components/Layout';
+import MyWorks from '../views/MyWorks';
+import StayTuned from '../views/StayTuned';
 
 const router = createBrowserRouter([
     {
@@ -10,9 +12,21 @@ const router = createBrowserRouter([
             {
                 path: "",
                 element: (
-                    <Index />
+                    <Home />
                 ),
-            }
+            },
+            {
+                path: "myworks",
+                element: (
+                    <MyWorks />
+                ),
+            },
+            {
+                path: "StayTuned",
+                element: (
+                    <StayTuned />
+                ),
+            },
         ]
     },
 ]);

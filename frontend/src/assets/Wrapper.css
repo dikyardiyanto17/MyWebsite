@@ -1,0 +1,40 @@
+.wrapper {
+    display: inline;
+}
+/* .wrapper span {
+    animation: animate 5s infinite 0s;
+    color: red;
+    opacity: 0;
+    position: absolute;
+    overflow: hidden;
+}
+.wrapper span:nth-child(2){
+    animation-delay: 1s;
+}
+.wrapper span:nth-child(3){
+    animation-delay: 2s;
+}
+.wrapper span:nth-child(4){
+    animation-delay: 3s;
+}
+.wrapper span:nth-child(5){
+    animation-delay: 4s;
+}
+.wrapper span:nth-child(6){
+    animation-delay: 5s;
+} */
+.wrapper h2 {
+    padding: 0;
+    margin: 0;
+}
+.wrapper span:before{
+    content: '';
+    animation: animate infinite 8s;
+}
+@keyframes animate {
+    0%{content: "Full Stack"; color: blue;}
+    25%{content: "Frontend"; color: blue;}
+    50%{content: "Backend"; color: blue;}
+    75%{content: "DevOps"; color: blue;}
+    100%{content: "Web"; color: blue;}
+}

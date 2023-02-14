@@ -1,6 +1,6 @@
 #movinganimation {
-    width: 200%;
-    animation: shape 10s ease-in-out infinite;
+    animation: 3s linear 1s infinite alternate slidein;
+    width: 100%;
 }
 
 @keyframes shape {

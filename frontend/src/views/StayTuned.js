@@ -2,13 +2,6 @@ import '../assets/Wrapper1.css'
 import '../assets/Wrapper1Anime.css'
 import '../assets/Wrapper.css'
 import '../assets/Wrapper2.css'
-import Demo from '../assets/demo-tynker.mp4'
-import LogoTynker from '../assets/logo.png'
-import Asset1 from '../assets/Tynker/Screenshot_1675913307.png'
-import Asset2 from '../assets/Tynker/Screenshot_1675913337.png'
-import Asset3 from '../assets/Tynker/ezgif.com-gif-maker.gif'
-import Asset4 from '../assets/Tynker/guessing.gif'
-import Asset5 from '../assets/Tynker/counting.gif'
 export default function StayTuned() {
     return (
         <>

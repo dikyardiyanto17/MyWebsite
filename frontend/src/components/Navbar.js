@@ -21,7 +21,7 @@ function NavScrollExample() {
             navbarScroll
           >
             <Link to="" style={{color: '#5B8FB9', margin: 'auto', textDecoration: 'none'}}>Home</Link>
-            <Link style={{color: '#5B8FB9', margin: 'auto', marginLeft: '15px', textDecoration: 'none'}}>My Novel</Link>
+            <Link style={{color: '#5B8FB9', margin: 'auto', marginLeft: '15px', textDecoration: 'none'}} to='staytuned' >My Novel</Link>
             <NavDropdown title="Reach Me" id="navbarScrollingDropdown" style={{color: '#5B8FB9', marginLeft: '15px'}}>
               <NavDropdown.Item href="https://www.linkedin.com/in/diky/" target="_blank">Linkedin</NavDropdown.Item>
               <NavDropdown.Item href="mailto:dikyardiyanto17@gmail.com" target="_blank">

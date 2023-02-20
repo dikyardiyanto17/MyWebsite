@@ -32,7 +32,7 @@ export default function Home() {
     } else {
         return (
             <>
-                <div style={{ backgroundColor: '#03001C', height: '80vh', paddingTop: '5%', color: '#B6EADA', display: 'flex', flexWrap: 'nowrap', padding: '50px' }}>
+                <div style={{ backgroundColor: '#03001C', height: '80vh', paddingTop: '5%', color: '#B6EADA', display: 'flex', flexWrap: 'nowrap', padding: '50px' ,overflow: 'hidden' }}>
                     <div style={{ minHeight: '50vh', width: '50vw', margin: 'auto', textAlign: 'right', paddingRight: '20px', marginTop: '100px' }}>
                         <h1 data-aos="slide-right">Hi! I am Diky</h1>
                         <div class='wrapper'>
@@ -60,9 +60,9 @@ export default function Home() {
                         <h2 data-aos="slide-right" style={{ fontFamily: 'Montserrat', fontWeight: 'bold', fontSize: '25px' }}>"Human progress is neither automatic nor inevitable... Every step toward the goal of justice requires sacrifice, suffering, and struggle; the tireless exertions and passionate concern of dedicated individuals."</h2>
                         <h4 data-aos="slide-right" style={{ fontFamily: 'Montserrat' }}>- Martin Luther King, Jr.</h4>
                     </div>
-                    <div style={{ minHeight: '50vh', width: '50vw', margin: '20px', textAlign: 'center', color: '#03001C' }}>
-                        <h3 style={{ textAlign: 'justify', fontSize: '15px', lineHeight: '1.5' }}>I am a full-stack developer just starting out in my career. Although I am new to the field, I am eager to learn and grow my skills as a full-stack developer. I am particularly interested in developing applications that are both beautiful and functional.</h3>
-                        <h3 style={{ textAlign: 'justify', fontSize: '15px', lineHeight: '1.5' }}>With a solid skill in JavaScript, I bring a wealth of expertise to the table when it comes to web design. I specialize in utilizing cutting-edge frameworks such as Vue and React, and I have a passion for creating intuitive and engaging mobile applications using React Native. I am always looking to expand my skill set and have recently taken a keen interest in Python programming. In my free time, I am also indulging my love of languages and am currently studying Japanese to deepen my understanding of this rich and fascinating culture.</h3>
+                    <div style={{ minHeight: '50vh', width: '50vw', margin: '20px', textAlign: 'center', color: '#03001C', overflow: 'hidden' }}>
+                        <h3 data-aos="slide-left" style={{ textAlign: 'justify', fontSize: '15px', lineHeight: '1.5' }}>I am a full-stack developer just starting out in my career. Although I am new to the field, I am eager to learn and grow my skills as a full-stack developer. I am particularly interested in developing applications that are both beautiful and functional.</h3>
+                        <h3 data-aos="slide-left" style={{ textAlign: 'justify', fontSize: '15px', lineHeight: '1.5' }}>With a solid skill in JavaScript, I bring a wealth of expertise to the table when it comes to web design. I specialize in utilizing cutting-edge frameworks such as Vue and React, and I have a passion for creating intuitive and engaging mobile applications using React Native. I am always looking to expand my skill set and have recently taken a keen interest in Python programming. In my free time, I am also indulging my love of languages and am currently studying Japanese to deepen my understanding of this rich and fascinating culture.</h3>
                     </div>
                 </div>
                 <div class="custom-shape-divider-top-1676192244" style={{ position: 'relative', margin: '0', backgroundColor: '#03001C', zIndex: '-1' }}>

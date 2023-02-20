@@ -10,9 +10,9 @@ import MyLogo from '../assets/MyLogo.png'
 
 function NavScrollExample() {
   return (
-    <Navbar style={{position: 'fixed', width: '100vw', backgroundColor: '#03001C', color: '#5B8FB9', height: '10vh', display: 'block'}}>
+    <Navbar style={{position: 'fixed', width: '100vw', backgroundColor: '#03001C', color: '#5B8FB9', height: '10vh', display: 'block', zIndex: '100'}}>
       <Container fluid>
-        <Navbar.Brand style={{color: '#5B8FB9'}}><img src={MyLogo} style={{width: '50px'}} /></Navbar.Brand>
+        <Navbar.Brand style={{color: '#5B8FB9'}}><img src={MyLogo} style={{width: '50px'}} alt='' /></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll"/>
         <Navbar.Collapse id="navbarScroll">
           <Nav

@@ -46,53 +46,53 @@ export default function MyWorks() {
                     <div style={{ margin: 'auto', textAlign: 'Center', marginTop: '50px' }}>
                         <h1 style={{ marginBottom: '20px' }}>My Works</h1>
                         <div className='d-flex col' style={{ textAlign: 'left' }}>
-                            <div className='col-3' style={{ marginLeft: '10px' }}>
+                            <div className='col-3' style={{ marginLeft: '0px' }}>
                                 <h2 data-aos="slide-right">Tynker</h2>
                             </div>
-                            <div className='col-9' style={{ textAlign: 'left', marginLeft: '10px' }}>
-                                <img src={LogoTynker} style={{ height: '200px' }} alt='' data-aos="slide-left" />
+                            <div className='col-9' style={{ textAlign: 'left', marginLeft: '0px' }}>
+                                <img data-aos="slide-left" src={LogoTynker} style={{ height: '200px' }} alt='' />
                             </div>
                         </div>
                         <div className='d-flex col' style={{ textAlign: 'left' }}>
-                            <div className='col-3' style={{ marginLeft: '10px' }}>
+                            <div className='col-3' style={{ marginLeft: '0px' }}>
                                 <h2 data-aos="slide-right">Screenshot</h2>
                             </div>
-                            <div className='col-9' style={{ textAlign: 'left' }}>
-                                <div style={{ display: 'flex', justifyContent: 'flex-start', flexWrap: 'wrap' }}>
-                                    <img src={Asset3} style={{ width: '150px', margin: '10px' }} alt='' data-aos="slide-left" />
-                                    <img src={Asset4} style={{ width: '150px', margin: '10px' }} alt='' data-aos="slide-left" />
-                                    <img src={Asset5} style={{ width: '150px', margin: '10px' }} alt='' data-aos="slide-left" />
-                                    <img src={Asset1} style={{ width: '150px', margin: '10px' }} alt='' data-aos="slide-left" />
-                                    <img src={Asset2} style={{ width: '150px', margin: '10px' }} alt='' data-aos="slide-left" />
+                            <div className='col-9' style={{ textAlign: 'left', overflow: 'hidden' }}>
+                                <div data-aos="slide-left" style={{ display: 'flex', justifyContent: 'flex-start', flexWrap: 'wrap'}}>
+                                    <img src={Asset3} style={{ width: '150px', margin: '10px' }} alt='' />
+                                    <img src={Asset4} style={{ width: '150px', margin: '10px' }} alt='' />
+                                    <img src={Asset5} style={{ width: '150px', margin: '10px' }} alt='' />
+                                    <img src={Asset1} style={{ width: '150px', margin: '10px' }} alt='' />
+                                    <img src={Asset2} style={{ width: '150px', margin: '10px' }} alt='' />
                                 </div>
                             </div>
                         </div>
                         <div className='d-flex col' style={{ textAlign: 'left' }}>
-                            <div className='col-3' style={{ marginLeft: '10px' }}>
+                            <div className='col-3' style={{ marginLeft: '0px' }}>
                                 <h2 data-aos="slide-right">Description</h2>
                             </div>
                             <div className='col-9' style={{ textAlign: 'left' }}>
-                                <div style={{ display: 'flex', justifyContent: 'flex-start', flexWrap: 'wrap' }}>
+                                <div style={{ display: 'flex', justifyContent: 'flex-start', flexWrap: 'wrap', overflow: 'hidden' }}>
                                     <p data-aos="slide-left">Tynker is an e-learning app for kids that teaches counting, object recognition, and learn basic English using voice recognition would likely include interactive games and exercises that help children practice these skills in a fun and engaging way. The app might use colorful graphics and simple animations to capture children's attention and make learning more enjoyable. Some of the features that the app might include are counting games that help children learn to count numbers, object recognition exercises that help children identify and name different objects, and English language activities that teach basic vocabulary and sentence structure.</p>
                                     <p data-aos="slide-left">Our team of four created this project, and I am the Backend Engineer on the team.</p>
                                 </div>
                             </div>
                         </div>
                         <div className='d-flex col' style={{ textAlign: 'left' }}>
-                            <div className='col-3' style={{ marginLeft: '10px' }}>
+                            <div className='col-3' style={{ marginLeft: '0px' }}>
                                 <h2 data-aos="slide-right">Tech Stack</h2>
                             </div>
-                            <div className='col-9' style={{ textAlign: 'left' }}>
+                            <div className='col-9' style={{ textAlign: 'left', overflow: 'hidden' }}>
                                 <p data-aos="slide-left">Frontend: React Native, expo, voice recognition</p>
                                 <p data-aos="slide-left">Backend: Express, node js, sequelize, aws, docker, nodemailer, postgreSQL</p>
                             </div>
                         </div>
                         <div className='d-flex col' style={{ textAlign: 'left' }}>
-                            <div className='col-3' style={{ marginLeft: '10px' }}>
+                            <div className='col-3' style={{ marginLeft: '0px' }}>
                                 <h2 data-aos="slide-right">Demo</h2>
                             </div>
-                            <div className='col-9' style={{ textAlign: 'left' }}>
-                                <iframe data-aos="slide-left" src={Demo} autoPlay='true' style={{ width: '900px', height: '500px' }} title='demo'/>
+                            <div className='col-9' style={{ textAlign: 'left', overflow: 'hidden' }}>
+                                <iframe data-aos="slide-left" src={Demo} autoPlay='true' style={{ width: '900px', height: '500px' }} title='demo' />
                             </div>
                         </div>
                     </div>
@@ -105,53 +105,53 @@ export default function MyWorks() {
                 <div style={{ backgroundColor: '#B6EADA', paddingTop: '5%', color: '#03001C', padding: '10px' }}>
                     <div style={{ margin: 'auto', textAlign: 'Center', marginTop: '50px' }}>
                         <div className='d-flex col' style={{ textAlign: 'left' }}>
-                            <div className='col-3' style={{ marginLeft: '10px' }}>
+                            <div className='col-3' style={{ marginLeft: '0px' }}>
                                 <h2 data-aos="slide-right">GLEK</h2>
                             </div>
-                            <div className='col-9' style={{ textAlign: 'left', marginLeft: '10px' }}>
-                                <img src={GlekLogo} style={{ height: '60px' }} alt='' data-aos="slide-left" />
+                            <div className='col-9' style={{ textAlign: 'left', marginLeft: '0px', overflow: 'hidden' }}>
+                                <img data-aos="slide-left" src={GlekLogo} style={{ height: '60px' }} alt='' />
                             </div>
                         </div>
                     </div>
                     <div className='d-flex col' style={{ textAlign: 'left' }}>
-                        <div className='col-3' style={{ marginLeft: '10px' }}>
+                        <div className='col-3' style={{ marginLeft: '0px' }}>
                             <h2 data-aos="slide-right">Screenshot</h2>
                         </div>
-                        <div className='col-9' style={{ textAlign: 'left' }}>
-                            <div style={{ display: 'flex', justifyContent: 'flex-start', flexWrap: 'wrap' }}>
-                                <img src={Glek1} style={{ width: '250px', margin: '10px' }} alt='' data-aos="slide-left" />
-                                <img src={Glek2} style={{ width: '250px', margin: '10px' }} alt='' data-aos="slide-left" />
-                                <img src={Glek3} style={{ width: '250px', margin: '10px' }} alt='' data-aos="slide-left" />
-                                <img src={Glek4} style={{ width: '250px', margin: '10px' }} alt='' data-aos="slide-left" />
-                                <img src={Glek5} style={{ width: '250px', margin: '10px' }} alt='' data-aos="slide-left" />
+                        <div className='col-9' style={{ textAlign: 'left', overflow: 'hidden' }}>
+                            <div data-aos="slide-left" style={{ display: 'flex', justifyContent: 'flex-start', flexWrap: 'wrap' }}>
+                                <img src={Glek1} style={{ width: '250px', margin: '10px' }} alt='' />
+                                <img src={Glek2} style={{ width: '250px', margin: '10px' }} alt='' />
+                                <img src={Glek3} style={{ width: '250px', margin: '10px' }} alt='' />
+                                <img src={Glek4} style={{ width: '250px', margin: '10px' }} alt='' />
+                                <img src={Glek5} style={{ width: '250px', margin: '10px' }} alt='' />
                             </div>
                         </div>
                     </div>
                     <div className='d-flex col' style={{ textAlign: 'left' }}>
-                        <div className='col-3' style={{ marginLeft: '10px' }}>
+                        <div className='col-3' style={{ marginLeft: '0px' }}>
                             <h2 data-aos="slide-right">Description</h2>
                         </div>
                         <div className='col-9' style={{ textAlign: 'left' }}>
-                            <div style={{ display: 'flex', justifyContent: 'flex-start', flexWrap: 'wrap' }}>
+                            <div style={{ display: 'flex', justifyContent: 'flex-start', flexWrap: 'wrap', overflow: 'hidden' }}>
                                 <p data-aos="slide-left">Glek is a simple web app that tracks your daily water intake. You can easily input your name and the amount of water you drank today. By clicking the 'log' button, the app will increase the bar and display a log of when you drank water. If you've already reached the goal of drinking 8 glasses of water, Glek will surprise you with random fun facts about water before finishing the app.</p>
                                 <p data-aos="slide-left">This project was a collaboration among six team members when we were still learning about JavaScript. My role in this project was as a Backend Engineer. Ah, those good old times!</p>
                             </div>
                         </div>
                     </div>
                     <div className='d-flex col' style={{ textAlign: 'left' }}>
-                        <div className='col-3' style={{ marginLeft: '10px' }}>
+                        <div className='col-3' style={{ marginLeft: '0px' }}>
                             <h2 data-aos="slide-right">Tech Stack</h2>
                         </div>
-                        <div className='col-9' style={{ textAlign: 'left' }}>
+                        <div className='col-9' style={{ textAlign: 'left', overflow: 'hidden' }}>
                             <p data-aos="slide-left">NodeJS, HTML & CSS</p>
                         </div>
                     </div>
                     <div className='d-flex col' style={{ textAlign: 'left' }}>
-                        <div className='col-3' style={{ marginLeft: '10px' }}>
+                        <div className='col-3' style={{ marginLeft: '0px' }}>
                             <h2 data-aos="slide-right">Try It</h2>
                         </div>
-                        <div className='col-9' style={{ textAlign: 'left' }}>
-                            <iframe src='https://whooptywoo.github.io/hackaton8/' style={{ width: '900px', height: '500px' }} data-aos="slide-left" title='glek'/>
+                        <div className='col-9' style={{ textAlign: 'left',overflow: 'hidden' }}>
+                            <iframe  data-aos="slide-left" src='https://whooptywoo.github.io/hackaton8/' style={{ width: '900px', height: '500px' }} title='glek' />
                         </div>
                     </div>
                 </div>

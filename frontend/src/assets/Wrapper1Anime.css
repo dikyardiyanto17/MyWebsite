@@ -1,6 +1,6 @@
-#movinganimation {
-    animation: 3s linear 1s infinite alternate slidein;
-    width: 100%;
+/* #movinganimation {
+    animation: shape 3s linear 1s infinite;
+    width: 200%;
 }
 
 @keyframes shape {
@@ -8,4 +8,4 @@
     50% {left: -50%}
     100% {left: 0;}
   }
-  
+   */

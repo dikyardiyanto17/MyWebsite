@@ -1,0 +1,7 @@
+#loading {
+    animation: moved 5s linear;
+}
+
+@keyframes moved {
+    100%{transform: translate(300%);}
+}

@@ -22,7 +22,7 @@ const router = createBrowserRouter([
                 ),
             },
             {
-                path: "staysuned",
+                path: "staytuned",
                 element: (
                     <StayTuned />
                 ),

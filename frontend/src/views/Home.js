@@ -35,7 +35,7 @@ export default function Home() {
                 <div style={{ backgroundColor: '#03001C', height: '80vh', paddingTop: '5%', color: '#B6EADA', display: 'flex', flexWrap: 'nowrap', padding: '50px' ,overflow: 'hidden' }}>
                     <div style={{ minHeight: '50vh', width: '50vw', margin: 'auto', textAlign: 'right', paddingRight: '20px', marginTop: '100px' }}>
                         <h1 data-aos="slide-right">Hi! I am Diky</h1>
-                        <div class='wrapper'>
+                        <div className='wrapper'>
                             <h2 style={{ fontFamily: 'Montserrat' }} data-aos="slide-right">A <span></span> Developer</h2>
                         </div>
                         <h2 data-aos="slide-right" style={{ fontFamily: 'Montserrat' }}>Based in Indonesia</h2>
@@ -50,9 +50,9 @@ export default function Home() {
                         </Player>
                     </div>
                 </div>
-                <div class="custom-shape-divider-top-1676191786" style={{ position: 'relative', margin: '0', backgroundColor: '#B6EADA', zIndex: '-1' }} id='movinganimation'>
+                <div className="custom-shape-divider-top-1676191786" style={{ position: 'relative', margin: '0', backgroundColor: '#B6EADA', zIndex: '-1' }} id='movinganimation'>
                     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" className="shape-fill"></path>
                     </svg>
                 </div>
                 <div style={{ backgroundColor: '#B6EADA', height: '80vh', paddingTop: '5%', color: '#B6EADA', display: 'flex', flexWrap: 'nowrap', padding: '50px' }}>
@@ -65,9 +65,9 @@ export default function Home() {
                         <h3 data-aos="slide-left" style={{ textAlign: 'justify', fontSize: '15px', lineHeight: '1.5' }}>With a solid skill in JavaScript, I bring a wealth of expertise to the table when it comes to web design. I specialize in utilizing cutting-edge frameworks such as Vue and React, and I have a passion for creating intuitive and engaging mobile applications using React Native. I am always looking to expand my skill set and have recently taken a keen interest in Python programming. In my free time, I am also indulging my love of languages and am currently studying Japanese to deepen my understanding of this rich and fascinating culture.</h3>
                     </div>
                 </div>
-                <div class="custom-shape-divider-top-1676192244" style={{ position: 'relative', margin: '0', backgroundColor: '#03001C', zIndex: '-1' }}>
+                <div className="custom-shape-divider-top-1676192244" style={{ position: 'relative', margin: '0', backgroundColor: '#03001C', zIndex: '-1' }}>
                     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" className="shape-fill"></path>
                     </svg>
                 </div>
 

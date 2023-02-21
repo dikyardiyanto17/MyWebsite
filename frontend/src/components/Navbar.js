@@ -9,6 +9,9 @@ import MyLogo from '../assets/MyLogo.png'
 
 
 function NavScrollExample() {
+  const hovering = (e) => {
+    console.log(e.target.style)
+  }
   return (
     <Navbar style={{position: 'fixed', width: '100vw', backgroundColor: '#03001C', color: '#5B8FB9', height: '10vh', display: 'block', zIndex: '100'}}>
       <Container fluid>
@@ -20,7 +23,7 @@ function NavScrollExample() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Link to="" style={{color: '#5B8FB9', margin: 'auto', textDecoration: 'none'}}>Home</Link>
+            <Link to="/" style={{color: '#5B8FB9', margin: 'auto', textDecoration: 'none'}} id="hovering" onMouseOver={hovering}>Home</Link>
             <Link style={{color: '#5B8FB9', margin: 'auto', marginLeft: '15px', textDecoration: 'none'}} to='staytuned' >My Novel</Link>
             <NavDropdown title="Reach Me" id="navbarScrollingDropdown" style={{color: '#5B8FB9', marginLeft: '15px'}}>
               <NavDropdown.Item href="https://www.linkedin.com/in/diky/" target="_blank">Linkedin</NavDropdown.Item>

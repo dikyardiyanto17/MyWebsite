@@ -14,12 +14,12 @@ export default function Home() {
     const [delayed, setDelayed] = useState(false)
     const onMouse = (e) => {
         console.log(e.target.innerHTML)
-        e.target.innerHTML = 'Hi! I am Diky Ardiyanto\nYou can call me Diky'
+        e.target.innerHTML = 'You can call me Diky'
     }
     
     const onMouseOutOver = (e) => {
         console.log(e.target.innerHTML)
-        e.target.innerHTML = 'Hi! I am Diky'
+        e.target.innerHTML = 'Hi! I am Diky Ardiyanto'
     }
 
     useEffect(() => {
@@ -48,8 +48,8 @@ export default function Home() {
                         <div className='wrapper'>
                             <h2 style={{ fontFamily: 'Montserrat' }} data-aos="slide-right">A <span></span> Developer</h2>
                         </div>
-                        <h2 data-aos="slide-right" style={{ fontFamily: 'Montserrat' }}>Based in Indonesia</h2>
-                        <p data-aos="slide-right" style={{ fontFamily: 'Montserrat', fontSize: '17px' }}>Delving into the depths of programming, weaving captivating tales through my writing, and embarking on thrilling adventures to distant lands—these are the elements that make up my ideal existence.</p>
+                        <h2 data-aos="slide-right" style={{ fontFamily: 'Montserrat' }} className='textHovering'>Based in Indonesia</h2>
+                        <p data-aos="slide-right" style={{ fontFamily: 'Montserrat', fontSize: '17px' }} className='textHovering'>Delving into the depths of programming, weaving captivating tales through my writing, and embarking on thrilling adventures to distant lands—these are the elements that make up my ideal existence.</p>
                     </div>
                     <div data-aos="slide-left" style={{ minHeight: '50vh', width: '50vw', margin: '20px', display: 'flex', alignItems: 'center' }}>
                         <Player
@@ -67,12 +67,12 @@ export default function Home() {
                 </div>
                 <div style={{ backgroundColor: '#B6EADA', height: '80vh', paddingTop: '5%', color: '#B6EADA', display: 'flex', flexWrap: 'nowrap', padding: '50px' }}>
                     <div  style={{ minHeight: '50vh', width: '50vw', margin: '20px', textAlign: 'justify', paddingRight: '20px', color: '#03001C' }}>
-                        <h2 data-aos="slide-right" style={{ fontFamily: 'Montserrat', fontWeight: 'bold', fontSize: '25px' }}>"Human progress is neither automatic nor inevitable... Every step toward the goal of justice requires sacrifice, suffering, and struggle; the tireless exertions and passionate concern of dedicated individuals."</h2>
-                        <h4 data-aos="slide-right" style={{ fontFamily: 'Montserrat' }}>- Martin Luther King, Jr.</h4>
+                        <h2 data-aos="slide-right" style={{ fontFamily: 'Montserrat', fontWeight: 'bold', fontSize: '25px' }} className='textHovering2'>"Human progress is neither automatic nor inevitable... Every step toward the goal of justice requires sacrifice, suffering, and struggle; the tireless exertions and passionate concern of dedicated individuals."</h2>
+                        <h4 data-aos="slide-right" style={{ fontFamily: 'Montserrat' }} className='textHovering3'>- Martin Luther King, Jr.</h4>
                     </div>
                     <div style={{ minHeight: '50vh', width: '50vw', margin: '20px', textAlign: 'center', color: '#03001C', overflow: 'hidden' }}>
-                        <h3 data-aos="slide-left" style={{ textAlign: 'justify', fontSize: '15px', lineHeight: '1.5' }}>I am a full-stack developer just starting out in my career. Although I am new to the field, I am eager to learn and grow my skills as a full-stack developer. I am particularly interested in developing applications that are both beautiful and functional.</h3>
-                        <h3 data-aos="slide-left" style={{ textAlign: 'justify', fontSize: '15px', lineHeight: '1.5' }}>With a solid skill in JavaScript, I bring a wealth of expertise to the table when it comes to web design. I specialize in utilizing cutting-edge frameworks such as Vue and React, and I have a passion for creating intuitive and engaging mobile applications using React Native. I am always looking to expand my skill set and have recently taken a keen interest in Python programming. In my free time, I am also indulging my love of languages and am currently studying Japanese to deepen my understanding of this rich and fascinating culture.</h3>
+                        <h3 data-aos="slide-left" style={{ textAlign: 'justify',  lineHeight: '1.5' }} className='textHovering4'>I am a full-stack developer just starting out in my career. Although I am new to the field, I am eager to learn and grow my skills as a full-stack developer. I am particularly interested in developing applications that are both beautiful and functional.</h3>
+                        <h3 data-aos="slide-left" style={{ textAlign: 'justify',  lineHeight: '1.5' }} className='textHovering4'>With a solid skill in JavaScript, I bring a wealth of expertise to the table when it comes to web design. I specialize in utilizing cutting-edge frameworks such as Vue and React, and I have a passion for creating intuitive and engaging mobile applications using React Native. I am always looking to expand my skill set and have recently taken a keen interest in Python programming. In my free time, I am also indulging my love of languages and am currently studying Japanese to deepen my understanding of this rich and fascinating culture.</h3>
                     </div>
                 </div>
                 <div className="custom-shape-divider-top-1676192244" style={{ position: 'relative', margin: '0', backgroundColor: '#03001C', zIndex: '-1' }}>

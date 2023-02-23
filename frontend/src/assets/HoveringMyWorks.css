@@ -1,0 +1,24 @@
+.worktitle:hover {
+    transform: translateX(77px) !important;
+    transition: 2s !important;
+}
+
+.images:hover {
+    width: 20vw;
+}
+
+#tynkerlogo {
+    transition: 2s;
+}
+
+#tynkerlogo:hover {
+    transform: scale(2);
+    z-index: 100;
+    display: block;
+    position: relative;
+}
+
+.descriptiontext:hover {
+    transform: scale(1) !important;
+    transition: 2s !important;
+}

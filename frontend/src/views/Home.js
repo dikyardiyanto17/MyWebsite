@@ -7,10 +7,20 @@ import '../assets/Wrapper2.css'
 import '../assets/Loading.css'
 import MyLogo from '../assets/MyLogo.png'
 import AOS from 'aos';
+import '../assets/Hovering.css'
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import { useEffect, useState } from 'react';
 export default function Home() {
     const [delayed, setDelayed] = useState(false)
+    const onMouse = (e) => {
+        console.log(e.target.innerHTML)
+        e.target.innerHTML = 'Hi! I am Diky Ardiyanto\nYou can call me Diky'
+    }
+    
+    const onMouseOutOver = (e) => {
+        console.log(e.target.innerHTML)
+        e.target.innerHTML = 'Hi! I am Diky'
+    }
 
     useEffect(() => {
         AOS.init({duration: 2000});
@@ -34,7 +44,7 @@ export default function Home() {
             <>
                 <div style={{ backgroundColor: '#03001C', height: '80vh', paddingTop: '5%', color: '#B6EADA', display: 'flex', flexWrap: 'nowrap', padding: '50px' ,overflow: 'hidden' }}>
                     <div style={{ minHeight: '50vh', width: '50vw', margin: 'auto', textAlign: 'right', paddingRight: '20px', marginTop: '100px' }}>
-                        <h1 data-aos="slide-right">Hi! I am Diky</h1>
+                        <h1 data-aos="slide-right" onMouseOver={onMouse} onMouseOut={onMouseOutOver} style={{whiteSpace: 'pre'}}>Hi! I am Diky</h1>
                         <div className='wrapper'>
                             <h2 style={{ fontFamily: 'Montserrat' }} data-aos="slide-right">A <span></span> Developer</h2>
                         </div>
@@ -50,8 +60,8 @@ export default function Home() {
                         </Player>
                     </div>
                 </div>
-                <div className="custom-shape-divider-top-1676191786" style={{ position: 'relative', margin: '0', backgroundColor: '#B6EADA', zIndex: '-1' }} id='movinganimation'>
-                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <div className="custom-shape-divider-top-1676191786" style={{ position: 'relative', margin: '0', backgroundColor: '#B6EADA', zIndex: '-1' }}>
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" className='movinganimation'>
                         <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" className="shape-fill"></path>
                     </svg>
                 </div>
@@ -66,7 +76,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="custom-shape-divider-top-1676192244" style={{ position: 'relative', margin: '0', backgroundColor: '#03001C', zIndex: '-1' }}>
-                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" className='movinganimation'>
                         <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" className="shape-fill"></path>
                     </svg>
                 </div>

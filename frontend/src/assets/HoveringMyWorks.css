@@ -3,11 +3,11 @@
     transition: 2s !important;
 }
 
-.images:hover {
+/* .images:hover {
     width: 20vw;
-}
+} */
 
-#tynkerlogo {
+/* #tynkerlogo {
     transition: 2s;
 }
 
@@ -16,7 +16,7 @@
     z-index: 100;
     display: block;
     position: relative;
-}
+} */
 
 .descriptiontext:hover {
     transform: scale(1) !important;

@@ -3,11 +3,11 @@
     transition: 2s !important;
 }
 
-/* .images:hover {
+.images:hover {
     width: 20vw;
-} */
+}
 
-/* #tynkerlogo {
+#tynkerlogo {
     transition: 2s;
 }
 
@@ -16,9 +16,41 @@
     z-index: 100;
     display: block;
     position: relative;
-} */
+}
 
-.descriptiontext:hover {
-    transform: scale(1) !important;
+.tynkerscreenshot {
+    transition: 2s;
+}
+
+.tynkerscreenshot:hover {
+    transform: scale(1.5);
+    z-index: 1;
+}
+
+.descriptiontext{
     transition: 2s !important;
+}
+
+.descriptiontext:hover{
+    font-size: 20px;
+}
+
+#gleklogo {
+    transition: 2s;
+}
+
+#gleklogo:hover {
+    transform: scale(2);
+    z-index: 100;
+    display: block;
+    position: relative;
+}
+
+.glekscreenshot {
+    transition: 2s;
+}
+
+.glekscreenshot:hover {
+    transform: scale(2);
+    z-index: 1;
 }

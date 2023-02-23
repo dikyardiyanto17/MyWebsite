@@ -44,7 +44,7 @@ export default function Home() {
             <>
                 <div style={{ backgroundColor: '#03001C', height: '80vh', paddingTop: '5%', color: '#B6EADA', display: 'flex', flexWrap: 'nowrap', padding: '50px' ,overflow: 'hidden' }}>
                     <div style={{ minHeight: '50vh', width: '50vw', margin: 'auto', textAlign: 'right', paddingRight: '20px', marginTop: '100px' }}>
-                        <h1 data-aos="slide-right" onMouseOver={onMouse} onMouseOut={onMouseOutOver} style={{whiteSpace: 'pre'}}>Hi! I am Diky</h1>
+                        <h1 data-aos="slide-right" onMouseOver={onMouse} onMouseOut={onMouseOutOver} style={{whiteSpace: 'pre'}}>Hi! I am Diky Ardiyanto</h1>
                         <div className='wrapper'>
                             <h2 style={{ fontFamily: 'Montserrat' }} data-aos="slide-right">A <span></span> Developer</h2>
                         </div>

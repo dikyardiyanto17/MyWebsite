@@ -3,6 +3,7 @@ import Home from '../views/Home';
 import Layout from '../components/Layout';
 import MyWorks from '../views/MyWorks';
 import StayTuned from '../views/StayTuned';
+import Certificate from '../views/Certificate'
 
 const router = createBrowserRouter([
     {
@@ -25,6 +26,12 @@ const router = createBrowserRouter([
                 path: "staytuned",
                 element: (
                     <StayTuned />
+                ),
+            },
+            {
+                path: "certificate",
+                element: (
+                    <Certificate />
                 ),
             },
         ]

@@ -34,6 +34,9 @@ function NavScrollExample() {
             <Link to='/myworks'  style={{color: '#5B8FB9', margin: 'auto', marginLeft: '15px', textDecoration: 'none'}} className="hovering">
               My Works
             </Link>
+            <Link to='/certificate'  style={{color: '#5B8FB9', margin: 'auto', marginLeft: '15px', textDecoration: 'none'}} className="hovering">
+              Certificate
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

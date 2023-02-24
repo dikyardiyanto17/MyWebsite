@@ -51,20 +51,20 @@ export default function MyWorks() {
                                 <h2 data-aos="slide-right" className='worktitle'>Tynker</h2>
                             </div>
                             <div className='col-9' style={{ textAlign: 'left', marginLeft: '0px' }}>
-                                <img data-aos="slide-left" src={LogoTynker} style={{ height: '10vw' }} alt='' />
+                                <img data-aos="zoom-in-up" id='tynkerlogo' src={LogoTynker} style={{ height: '10vw' }} alt='' />
                             </div>
                         </div>
                         <div className='d-flex col' style={{ textAlign: 'left' }}>
                             <div className='col-3' style={{ marginLeft: '0px' }}>
                                 <h2 data-aos="slide-right"  className='worktitle'>Screenshot</h2>
                             </div>
-                            <div className='col-9' style={{ textAlign: 'left', overflow: 'hidden' }}>
-                                <div data-aos="slide-left">
-                                    <img src={Asset3} style={{ width: '15vw', margin: '10px' }} alt='' />
-                                    <img src={Asset4} style={{ width: '15vw', margin: '10px' }} alt='' />
-                                    <img src={Asset5} style={{ width: '15vw', margin: '10px' }} alt='' />
-                                    <img src={Asset1} style={{ width: '15vw', margin: '10px' }} alt='' />
-                                    <img src={Asset2} style={{ width: '15vw', margin: '10px' }} alt='' />
+                            <div className='col-9' style={{ textAlign: 'left' }}>
+                                <div data-aos="zoom-in-up">
+                                    <img className='tynkerscreenshot' src={Asset3} style={{ width: '15vw', margin: '10px' }} alt='' />
+                                    <img className='tynkerscreenshot' src={Asset4} style={{ width: '15vw', margin: '10px' }} alt='' />
+                                    <img className='tynkerscreenshot' src={Asset5} style={{ width: '15vw', margin: '10px' }} alt='' />
+                                    <img className='tynkerscreenshot' src={Asset1} style={{ width: '15vw', margin: '10px' }} alt='' />
+                                    <img className='tynkerscreenshot' src={Asset2} style={{ width: '15vw', margin: '10px' }} alt='' />
                                 </div>
                             </div>
                         </div>
@@ -74,8 +74,8 @@ export default function MyWorks() {
                             </div>
                             <div className='col-9' style={{ textAlign: 'left' }}>
                                 <div style={{ display: 'flex', justifyContent: 'flex-start', flexWrap: 'wrap', overflow: 'hidden' }}>
-                                    <p className='descriptiontext' data-aos="slide-left">Tynker is an e-learning app for kids that teaches counting, object recognition, and learn basic English using voice recognition would likely include interactive games and exercises that help children practice these skills in a fun and engaging way. The app might use colorful graphics and simple animations to capture children's attention and make learning more enjoyable. Some of the features that the app might include are counting games that help children learn to count numbers, object recognition exercises that help children identify and name different objects, and English language activities that teach basic vocabulary and sentence structure.</p>
-                                    <p className='descriptiontext' data-aos="slide-left">Our team of four created this project, and I am the Backend Engineer on the team.</p>
+                                    <p className='descriptiontext' data-aos="zoom-in-up">Tynker is an e-learning app for kids that teaches counting, object recognition, and learn basic English using voice recognition would likely include interactive games and exercises that help children practice these skills in a fun and engaging way. The app might use colorful graphics and simple animations to capture children's attention and make learning more enjoyable. Some of the features that the app might include are counting games that help children learn to count numbers, object recognition exercises that help children identify and name different objects, and English language activities that teach basic vocabulary and sentence structure.</p>
+                                    <p className='descriptiontext' data-aos="zoom-in-up">Our team of four created this project, and I am the Backend Engineer on the team.</p>
                                 </div>
                             </div>
                         </div>
@@ -84,8 +84,8 @@ export default function MyWorks() {
                                 <h2 data-aos="slide-right"  className='worktitle'>Tech Stack</h2>
                             </div>
                             <div className='col-9' style={{ textAlign: 'left', overflow: 'hidden' }}>
-                                <p className='descriptiontext' data-aos="slide-left">Frontend: React Native, expo, voice recognition</p>
-                                <p className='descriptiontext' data-aos="slide-left">Backend: Express, node js, sequelize, aws, docker, nodemailer, postgreSQL</p>
+                                <p className='descriptiontext' data-aos="zoom-in-up">Frontend: React Native, expo, voice recognition</p>
+                                <p className='descriptiontext' data-aos="zoom-in-up">Backend: Express, node js, sequelize, aws, docker, nodemailer, postgreSQL</p>
                             </div>
                         </div>
                         <div className='d-flex col' style={{ textAlign: 'left' }}>
@@ -93,7 +93,7 @@ export default function MyWorks() {
                                 <h2 data-aos="slide-right"  className='worktitle'>Demo</h2>
                             </div>
                             <div className='col-9' style={{ textAlign: 'left', overflow: 'hidden' }}>
-                                <iframe data-aos="slide-left" src={Demo} style={{ width: '65vw', height: '80vh' }} title='demo' />
+                                <iframe data-aos="zoom-in-up" src={Demo} style={{ width: '65vw', height: '80vh' }} title='demo' />
                             </div>
                         </div>
                     </div>
@@ -110,7 +110,7 @@ export default function MyWorks() {
                                 <h2 data-aos="slide-right" className='worktitle'>GLEK</h2>
                             </div>
                             <div className='col-9' style={{ textAlign: 'left', marginLeft: '0px' }}>
-                                <img data-aos="slide-left" src={GlekLogo} style={{ height: '10vh' }} alt='' />
+                                <img data-aos="zoom-in-up" id='gleklogo' src={GlekLogo} style={{ height: '10vh' }} alt='' />
                             </div>
                         </div>
                     </div>
@@ -118,13 +118,13 @@ export default function MyWorks() {
                         <div className='col-3' style={{ marginLeft: '0px' }}>
                             <h2 data-aos="slide-right"  className='worktitle'>Screenshot</h2>
                         </div>
-                        <div className='col-9' style={{ textAlign: 'left', overflow: 'hidden' }}>
-                            <div data-aos="slide-left">
-                                <img src={Glek1} style={{ width: '20vw', margin: '10px' }} alt='' />
-                                <img src={Glek2} style={{ width: '20vw', margin: '10px' }} alt='' />
-                                <img src={Glek3} style={{ width: '20vw', margin: '10px' }} alt='' />
-                                <img src={Glek4} style={{ width: '20vw', margin: '10px' }} alt='' />
-                                <img src={Glek5} style={{ width: '20vw', margin: '10px' }} alt='' />
+                        <div className='col-9' style={{ textAlign: 'left' }}>
+                            <div data-aos="zoom-in-up">
+                                <img className='glekscreenshot' src={Glek1} style={{ width: '20vw', margin: '10px' }} alt='' />
+                                <img className='glekscreenshot' src={Glek2} style={{ width: '20vw', margin: '10px' }} alt='' />
+                                <img className='glekscreenshot' src={Glek3} style={{ width: '20vw', margin: '10px' }} alt='' />
+                                <img className='glekscreenshot' src={Glek4} style={{ width: '20vw', margin: '10px' }} alt='' />
+                                <img className='glekscreenshot' src={Glek5} style={{ width: '20vw', margin: '10px' }} alt='' />
                             </div>
                         </div>
                     </div>
@@ -134,8 +134,8 @@ export default function MyWorks() {
                         </div>
                         <div className='col-9' style={{ textAlign: 'left' }}>
                             <div style={{ display: 'flex', justifyContent: 'flex-start', flexWrap: 'wrap', overflow: 'hidden' }}>
-                                <p className='descriptiontext' data-aos="slide-left">Glek is a simple web app that tracks your daily water intake. You can easily input your name and the amount of water you drank today. By clicking the 'log' button, the app will increase the bar and display a log of when you drank water. If you've already reached the goal of drinking 8 glasses of water, Glek will surprise you with random fun facts about water before finishing the app.</p>
-                                <p className='descriptiontext' data-aos="slide-left">This project was a collaboration among six team members when we were still learning about JavaScript. My role in this project was as a Backend Engineer. Ah, those good old times!</p>
+                                <p className='descriptiontext' data-aos="zoom-in-up">Glek is a simple web app that tracks your daily water intake. You can easily input your name and the amount of water you drank today. By clicking the 'log' button, the app will increase the bar and display a log of when you drank water. If you've already reached the goal of drinking 8 glasses of water, Glek will surprise you with random fun facts about water before finishing the app.</p>
+                                <p className='descriptiontext' data-aos="zoom-in-up">This project was a collaboration among six team members when we were still learning about JavaScript. My role in this project was as a Backend Engineer. Ah, those good old times!</p>
                             </div>
                         </div>
                     </div>
@@ -144,7 +144,7 @@ export default function MyWorks() {
                             <h2 data-aos="slide-right"  className='worktitle'>Tech Stack</h2>
                         </div>
                         <div className='col-9' style={{ textAlign: 'left', overflow: 'hidden' }}>
-                            <p className='descriptiontext' data-aos="slide-left">NodeJS, HTML & CSS</p>
+                            <p className='descriptiontext' data-aos="zoom-in-up">NodeJS, HTML & CSS</p>
                         </div>
                     </div>
                     <div className='d-flex col' style={{ textAlign: 'left' }}>
@@ -152,7 +152,7 @@ export default function MyWorks() {
                             <h2 data-aos="slide-right"  className='worktitle'>Try It</h2>
                         </div>
                         <div className='col-9' style={{ textAlign: 'left',overflow: 'hidden' }}>
-                            <iframe  data-aos="slide-left" src='https://whooptywoo.github.io/hackaton8/' style={{ width: '65vw', height: '80vh' }} title='glek' />
+                            <iframe  data-aos="zoom-in-up" src='https://whooptywoo.github.io/hackaton8/' style={{ width: '65vw', height: '80vh' }} title='glek' />
                         </div>
                     </div>
                 </div>

@@ -21,8 +21,8 @@ function NavScrollExample() {
             navbarScroll
           >
             <Link to="/" style={{color: '#5B8FB9', margin: 'auto', textDecoration: 'none'}} className="hovering">Home</Link>
-            <Link style={{color: '#5B8FB9', margin: 'auto', marginLeft: '15px', textDecoration: 'none'}} to='staytuned'  className="hovering" >My Novel</Link>
-            <NavDropdown title="Reach Me" id="navbarScrollingDropdown" style={{color: '#5B8FB9', marginLeft: '15px'}}>
+            <Link style={{color: '#5B8FB9', margin: 'auto', marginLeft: '25px', textDecoration: 'none'}} to='staytuned'  className="hovering2" >My Novel</Link>
+            <NavDropdown title="Reach Me" id="navbarScrollingDropdown" style={{color: '#5B8FB9', marginLeft: '25px'}}>
               <NavDropdown.Item href="https://www.linkedin.com/in/diky/" target="_blank" className='droppeddown'>Linkedin</NavDropdown.Item>
               <NavDropdown.Item href="mailto:dikyardiyanto17@gmail.com" target="_blank" className='droppeddown2'>
                 Email
@@ -30,11 +30,14 @@ function NavScrollExample() {
               <NavDropdown.Item href="https://github.com/dikyardiyanto17" target="_blank" className='droppeddown'>
                 Github
               </NavDropdown.Item>
+              <NavDropdown.Item href="https://api.whatsapp.com/send?phone=6285213030871&text=Hi Diky" target="_blank" className='droppeddown2'>
+                Whatsapp
+              </NavDropdown.Item>
             </NavDropdown>
-            <Link to='/myworks'  style={{color: '#5B8FB9', margin: 'auto', marginLeft: '15px', textDecoration: 'none'}} className="hovering">
+            <Link to='/myworks'  style={{color: '#5B8FB9', margin: 'auto', marginLeft: '25px', textDecoration: 'none'}} className="hovering">
               My Works
             </Link>
-            <Link to='/certificate'  style={{color: '#5B8FB9', margin: 'auto', marginLeft: '15px', textDecoration: 'none'}} className="hovering">
+            <Link to='/certificate'  style={{color: '#5B8FB9', margin: 'auto', marginLeft: '25px', textDecoration: 'none'}} className="hovering2">
               Certificate
             </Link>
           </Nav>

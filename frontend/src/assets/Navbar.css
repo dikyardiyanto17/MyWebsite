@@ -9,9 +9,12 @@ a {
     animation: fadingIn 5s;
 }
 .hovering:hover {
-    animation-name: rotating;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+    transform: rotate(20deg);
+    transition: 1s;
+}
+.hovering2:hover {
+    transform: rotate(-20deg);
+    transition: 1s;
 }
 
 .dropdown-menu{

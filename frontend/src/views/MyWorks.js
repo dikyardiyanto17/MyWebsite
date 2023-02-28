@@ -73,7 +73,7 @@ export default function MyWorks() {
                                 <h2 data-aos="slide-right"  className='worktitle'>Description</h2>
                             </div>
                             <div className='col-9' style={{ textAlign: 'left' }}>
-                                <div style={{ display: 'flex', justifyContent: 'flex-start', flexWrap: 'wrap', overflow: 'hidden' }}>
+                                <div style={{ display: 'flex', justifyContent: 'flex-start', flexWrap: 'wrap'}}>
                                     <p className='descriptiontext' data-aos="zoom-in-up">Tynker is an e-learning app for kids that teaches counting, object recognition, and learn basic English using voice recognition would likely include interactive games and exercises that help children practice these skills in a fun and engaging way. The app might use colorful graphics and simple animations to capture children's attention and make learning more enjoyable. Some of the features that the app might include are counting games that help children learn to count numbers, object recognition exercises that help children identify and name different objects, and English language activities that teach basic vocabulary and sentence structure.</p>
                                     <p className='descriptiontext' data-aos="zoom-in-up">Our team of four created this project, and I am the Backend Engineer on the team.</p>
                                 </div>

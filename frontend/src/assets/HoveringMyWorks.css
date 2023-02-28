@@ -27,11 +27,8 @@
     z-index: 1;
 }
 
-.descriptiontext{
-    transition: 2s !important;
-}
-
 .descriptiontext:hover{
+    transition: 2s !important;
     font-size: 20px;
 }
 

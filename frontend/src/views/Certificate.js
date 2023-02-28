@@ -112,7 +112,7 @@ export default function MyWorks() {
                                 <h2 data-aos="slide-right" className='worktitle'>Title</h2>
                             </div>
                             <div className='col-9' style={{ textAlign: 'left', marginLeft: '0px' }}>
-                                <h2 data-aos="zoom-in-up" className='worktitle'>Learning Japanese (Basic)</h2>
+                                <h2 data-aos="zoom-in-up" className='worktitle'>General Japanese Level Beginner</h2>
                             </div>
                         </div>
                     </div>
@@ -185,7 +185,7 @@ export default function MyWorks() {
                             <h2 data-aos="slide-right" className='worktitle'>Institution</h2>
                         </div>
                         <div className='col-9' style={{ textAlign: 'left', overflow: 'hidden' }}>
-                            <h2 data-aos="zoom-in-up" className='worktitle'>Daihtasu</h2>
+                            <h2 data-aos="zoom-in-up" className='worktitle'>Daihatsu</h2>
                         </div>
                     </div>
                     <div className='d-flex col' style={{ textAlign: 'left' }}>

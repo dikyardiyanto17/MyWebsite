@@ -33,8 +33,7 @@
 }
 @keyframes animate {
     0%{content: "Full Stack"; color: blue;}
-    25%{content: "Frontend"; color: blue;}
-    50%{content: "Backend"; color: blue;}
-    75%{content: "DevOps"; color: blue;}
+    33%{content: "Frontend"; color: blue;}
+    66%{content: "Backend"; color: blue;}
     100%{content: "Web"; color: blue;}
 }

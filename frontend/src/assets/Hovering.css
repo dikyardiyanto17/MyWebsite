@@ -1,0 +1,59 @@
+.textHovering:hover {
+    animation-name: texthover;
+    animation-duration: 2s;
+}
+
+@keyframes texthover {
+    0% {
+        transform: translateX(0px);
+    }  
+    50% {
+        transform: translateX(-77px);
+    }    
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.textHovering2:hover {
+    animation-name: texthover2;
+    animation-duration: 2s;
+}
+
+@keyframes texthover2 {
+    0% {
+        transform: translateY(0px);
+    }  
+    50% {
+        transform: translateY(-77px);
+    }    
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.textHovering3:hover {
+    animation-name: texthover3;
+    animation-duration: 2s;
+}
+
+@keyframes texthover3 {
+    0% {
+        transform: translateX(0px);
+    }  
+    50% {
+        transform: translateX(77px);
+    }    
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.textHovering4 {
+    font-size: 15px;
+    transition: 2s !important;
+}
+
+.textHovering4:hover {
+    font-size: 20px;
+}

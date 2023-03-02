@@ -5,3 +5,62 @@ a {
 .dropdown-menu {
     padding: 0 !important;
 }
+#navbar {
+    animation: fadingIn 5s;
+}
+.hovering:hover {
+    transform: rotate(20deg);
+    transition: 1s;
+}
+.hovering2:hover {
+    transform: rotate(-20deg);
+    transition: 1s;
+}
+
+.dropdown-menu{
+    min-width: auto !important;
+}
+
+.dropdown-menu .show{
+    animation-name: showed;
+    animation-duration: 2s;
+}
+
+.droppeddown:hover {
+    transform: rotate(20deg);
+    transition: 1s;
+}
+.droppeddown2:hover {
+    transform: rotate(-20deg);
+    transition: 1s;
+}
+
+@keyframes showed {
+    from {
+        opacity: 0;
+    }    
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes rotating {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+    
+}
+
+
+
+@keyframes fadingIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

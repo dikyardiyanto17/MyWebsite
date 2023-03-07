@@ -10,6 +10,7 @@ import Asset2 from '../assets/Tynker/Screenshot_1675913337.png'
 import Asset3 from '../assets/Tynker/ezgif.com-gif-maker.gif'
 import Asset4 from '../assets/Tynker/guessing.gif'
 import Asset5 from '../assets/Tynker/counting.gif'
+import UnitTest from '../assets/Tynker/Unit Test Tynker.png'
 import GlekLogo from '../assets/GlekLogo.png'
 import Glek1 from '../assets/Glek/Glek1.png'
 import Glek2 from '../assets/Glek/Glek2.png'
@@ -56,7 +57,7 @@ export default function MyWorks() {
                         </div>
                         <div className='d-flex col' style={{ textAlign: 'left' }}>
                             <div className='col-3' style={{ marginLeft: '0px' }}>
-                                <h2 data-aos="slide-right"  className='worktitle'>Screenshot</h2>
+                                <h2 data-aos="slide-right" className='worktitle'>Screenshot</h2>
                             </div>
                             <div className='col-9' style={{ textAlign: 'left' }}>
                                 <div data-aos="zoom-in-up">
@@ -70,10 +71,18 @@ export default function MyWorks() {
                         </div>
                         <div className='d-flex col' style={{ textAlign: 'left' }}>
                             <div className='col-3' style={{ marginLeft: '0px' }}>
-                                <h2 data-aos="slide-right"  className='worktitle'>Description</h2>
+                                <h2 data-aos="slide-right" className='worktitle'>Unit Coverage Test</h2>
+                            </div>
+                            <div className='col-9' style={{ textAlign: 'left', overflow: 'hidden' }}>
+                                <img className='tynkerscreenshot' src={UnitTest} style={{ width: '35vw', margin: '10px' }} alt='' />
+                            </div>
+                        </div>
+                        <div className='d-flex col' style={{ textAlign: 'left' }}>
+                            <div className='col-3' style={{ marginLeft: '0px' }}>
+                                <h2 data-aos="slide-right" className='worktitle'>Description</h2>
                             </div>
                             <div className='col-9' style={{ textAlign: 'left' }}>
-                                <div style={{ display: 'flex', justifyContent: 'flex-start', flexWrap: 'wrap'}}>
+                                <div style={{ display: 'flex', justifyContent: 'flex-start', flexWrap: 'wrap' }}>
                                     <p className='descriptiontext' data-aos="zoom-in-up">Tynker is an e-learning app for kids that teaches counting, object recognition, and learn basic English using voice recognition would likely include interactive games and exercises that help children practice these skills in a fun and engaging way. The app might use colorful graphics and simple animations to capture children's attention and make learning more enjoyable. Some of the features that the app might include are counting games that help children learn to count numbers, object recognition exercises that help children identify and name different objects, and English language activities that teach basic vocabulary and sentence structure.</p>
                                     <p className='descriptiontext' data-aos="zoom-in-up">Our team of four created this project, and I am the Backend Engineer on the team.</p>
                                 </div>
@@ -81,7 +90,7 @@ export default function MyWorks() {
                         </div>
                         <div className='d-flex col' style={{ textAlign: 'left' }}>
                             <div className='col-3' style={{ marginLeft: '0px' }}>
-                                <h2 data-aos="slide-right"  className='worktitle'>Tech Stack</h2>
+                                <h2 data-aos="slide-right" className='worktitle'>Tech Stack</h2>
                             </div>
                             <div className='col-9' style={{ textAlign: 'left', overflow: 'hidden' }}>
                                 <p className='descriptiontext' data-aos="zoom-in-up">Frontend: React Native, expo, voice recognition</p>
@@ -90,7 +99,7 @@ export default function MyWorks() {
                         </div>
                         <div className='d-flex col' style={{ textAlign: 'left' }}>
                             <div className='col-3' style={{ marginLeft: '0px' }}>
-                                <h2 data-aos="slide-right"  className='worktitle'>Demo</h2>
+                                <h2 data-aos="slide-right" className='worktitle'>Demo</h2>
                             </div>
                             <div className='col-9' style={{ textAlign: 'left', overflow: 'hidden' }}>
                                 <iframe data-aos="zoom-in-up" src={Demo} style={{ width: '65vw', height: '80vh' }} title='demo' />
@@ -116,7 +125,7 @@ export default function MyWorks() {
                     </div>
                     <div className='d-flex col' style={{ textAlign: 'left' }}>
                         <div className='col-3' style={{ marginLeft: '0px' }}>
-                            <h2 data-aos="slide-right"  className='worktitle'>Screenshot</h2>
+                            <h2 data-aos="slide-right" className='worktitle'>Screenshot</h2>
                         </div>
                         <div className='col-9' style={{ textAlign: 'left' }}>
                             <div data-aos="zoom-in-up">
@@ -130,7 +139,7 @@ export default function MyWorks() {
                     </div>
                     <div className='d-flex col' style={{ textAlign: 'left' }}>
                         <div className='col-3' style={{ marginLeft: '0px' }}>
-                            <h2 data-aos="slide-right"  className='worktitle'>Description</h2>
+                            <h2 data-aos="slide-right" className='worktitle'>Description</h2>
                         </div>
                         <div className='col-9' style={{ textAlign: 'left' }}>
                             <div style={{ display: 'flex', justifyContent: 'flex-start', flexWrap: 'wrap', overflow: 'hidden' }}>
@@ -141,7 +150,7 @@ export default function MyWorks() {
                     </div>
                     <div className='d-flex col' style={{ textAlign: 'left' }}>
                         <div className='col-3' style={{ marginLeft: '0px' }}>
-                            <h2 data-aos="slide-right"  className='worktitle'>Tech Stack</h2>
+                            <h2 data-aos="slide-right" className='worktitle'>Tech Stack</h2>
                         </div>
                         <div className='col-9' style={{ textAlign: 'left', overflow: 'hidden' }}>
                             <p className='descriptiontext' data-aos="zoom-in-up">NodeJS, HTML & CSS</p>
@@ -149,10 +158,10 @@ export default function MyWorks() {
                     </div>
                     <div className='d-flex col' style={{ textAlign: 'left' }}>
                         <div className='col-3' style={{ marginLeft: '0px' }}>
-                            <h2 data-aos="slide-right"  className='worktitle'>Try It</h2>
+                            <h2 data-aos="slide-right" className='worktitle'>Try It</h2>
                         </div>
-                        <div className='col-9' style={{ textAlign: 'left',overflow: 'hidden' }}>
-                            <iframe  data-aos="zoom-in-up" src='https://whooptywoo.github.io/hackaton8/' style={{ width: '65vw', height: '80vh' }} title='glek' />
+                        <div className='col-9' style={{ textAlign: 'left', overflow: 'hidden' }}>
+                            <iframe data-aos="zoom-in-up" src='https://whooptywoo.github.io/hackaton8/' style={{ width: '65vw', height: '80vh' }} title='glek' />
                         </div>
                     </div>
                 </div>

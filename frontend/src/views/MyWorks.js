@@ -73,7 +73,7 @@ export default function MyWorks() {
                             <div className='col-3' style={{ marginLeft: '0px' }}>
                                 <h2 data-aos="slide-right" className='worktitle'>Unit Coverage Test</h2>
                             </div>
-                            <div className='col-9' style={{ textAlign: 'left', overflow: 'hidden' }}>
+                            <div className='col-9' style={{ textAlign: 'left'}}>
                                 <img className='tynkerscreenshot' src={UnitTest} style={{ width: '35vw', margin: '10px' }} alt='' />
                             </div>
                         </div>

@@ -10,10 +10,7 @@ import AOS from 'aos';
 import '../assets/Hovering.css'
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import { useEffect, useState } from 'react';
-import WhatsApp from '../assets/Whatsapp.png'
-import Email from '../assets/Email.png'
-import Github from '../assets/Github.png'
-import Linkedin from '../assets/Linkedin.png'
+
 export default function Home() {
     const [delayed, setDelayed] = useState(false)
     const onMouse = (e) => {
@@ -86,19 +83,7 @@ export default function Home() {
                         <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" className="shape-fill"></path>
                     </svg>
                 </div>
-                <div className='container-fluid'>
-                    <div className='row'  style={{ backgroundColor: '#03001C', color: '#B6EADA' }} >
-                        <div className='col-6 d-flex align-items-center'>
-                            <p>@copyright - Diky Ardiyanto  </p>
-                        </div>
-                        <div className='d-flex flex-row-reverse col-6 align-items-center'>
-                            <div style={{ fontSize: '13px', margin: '20px' }}><a style={{ textDecoration: 'none' }}><img src={WhatsApp} style={{ width: '30px' }} alt='' />+62 852-1303-0871</a></div>
-                            <div style={{ fontSize: '13px', margin: '20px' }}><a style={{ textDecoration: 'none' }}><img src={Email} style={{ width: '30px' }} alt='' />dikyardiyanto17@gmail.com</a></div>
-                            <div style={{ fontSize: '13px', margin: '20px' }}><a style={{ textDecoration: 'none' }}><img src={Github} style={{ width: '30px' }} alt='' />Github</a></div>
-                            <div style={{ fontSize: '13px', margin: '20px' }}><a style={{ textDecoration: 'none' }}><img src={Linkedin} style={{ width: '30px' }} alt='' />Linkedin</a></div>
-                        </div>
-                    </div>
-                </div>
+
             </>
         );
     }

@@ -121,7 +121,7 @@
   }
 
   .nav > #nav-check:checked ~ .nav-links {
-    height: calc(100vh - 310px);
+    height: auto;
     overflow-y: auto;
   }
 }

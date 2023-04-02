@@ -1,7 +1,6 @@
 import '../assets/Wrapper1.css'
 import '../assets/Wrapper1Anime.css'
 import '../assets/Wrapper.css'
-import '../assets/Wrapper1Anime.css'
 import '../assets/Wrapper2.css'
 import Demo from '../assets/demo-tynker.mp4'
 import LogoTynker from '../assets/logo.png'
@@ -18,7 +17,7 @@ import Glek4 from '../assets/Glek/Glek4.png'
 import Glek5 from '../assets/Glek/Glek5.png'
 import '../assets/HoveringMyWorks.css'
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
+import 'aos/dist/aos.css';
 import MyLogo from '../assets/MyLogo.png'
 import { useEffect, useState } from 'react'
 export default function MyWorks() {

@@ -73,7 +73,7 @@ export default function Home() {
                             <h4 data-aos="slide-right" style={{ fontFamily: 'Montserrat' }} className='textHovering3'>- Martin Luther King, Jr.</h4>
                         </div>
                         <div className='col-lg-6 col-md-12' style={{ textAlign: 'justify', color: '#03001C', overflow: 'hidden' }}>
-                            <h3 data-aos="slide-left" style={{ textAlign: 'justify', lineHeight: '1.5' }} className='textHovering4'>I am a full-stack developer just starting out in my career. Although I am new to the field, I am eager to learn and grow my skills as a full-stack developer. I am particularly interested in developing applications that are both beautiful and functional.</h3>
+                            <h3 data-aos="slide-left" style={{ textAlign: 'justify', lineHeight: '1.5' }} className='textHovering4'>I am a Full Stack Developer. I am particularly interested in developing applications that are both beautiful and functional.</h3>
                             <h3 data-aos="slide-left" style={{ textAlign: 'justify', lineHeight: '1.5' }} className='textHovering4'>With a solid skill in JavaScript, I bring a wealth of expertise to the table when it comes to web design. I specialize in utilizing cutting-edge frameworks such as Vue and React, and I have a passion for creating intuitive and engaging mobile applications using React Native. I am always looking to expand my skill set and have recently taken a keen interest in Python programming. In my free time, I am also indulging my love of languages and am currently studying Japanese to deepen my understanding of this rich and fascinating culture.</h3>
                         </div>
                     </div>

@@ -17,3 +17,10 @@
 .custom-shape-divider-top-1676192244 .shape-fill {
     fill: #B6EADA;
 }
+
+
+@media screen and (max-width: 992px) {
+  .custom-shape-divider-top-1676192244 svg{
+    display: none;
+  }
+}

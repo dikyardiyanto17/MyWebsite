@@ -36,6 +36,16 @@ import YCS5 from "../assets/Yugioh Card Selector/Yugioh Card Selector (5).png";
 import YCS6 from "../assets/Yugioh Card Selector/Yugioh Card Selector (6).png";
 import YCS7 from "../assets/Yugioh Card Selector/Yugioh Card Selector (7).png";
 import YCSDemo from "../assets/Yugioh Card Selector/Yugioh.mp4";
+import GS1 from "../assets/GitSearch/web-view-home-2.png";
+import GS2 from "../assets/GitSearch/web-view-repositories.png";
+import GS3 from "../assets/GitSearch/web-view-users.png";
+import GS4 from "../assets/GitSearch/mobile-view-home-2.png";
+import GS5 from "../assets/GitSearch/mobile-view-repositories.png";
+import GS6 from "../assets/GitSearch/mobile-view-users.png";
+import GSDemo from "../assets/GitSearch/GSDemo.mp4";
+import PS1 from "../assets/PokeSearch/PokeSearch (1).png";
+import PS2 from "../assets/PokeSearch/PokeSearch (2).png";
+import PSDemo from "../assets/PokeSearch/PokeSearch.mp4";
 import "../assets/HoveringMyWorks.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -324,7 +334,7 @@ export default function MyWorks() {
                   Frontend: VueJS, Pinia, SweetAlert2
                 </p>
                 <p className="descriptiontext" data-aos="zoom-in-up">
-                  Backend: Express, NodeJS, Sequelize, Nodemailer, PostgreSQL, Axios, Bycryptjs, Json Web Token, Multer
+                  Backend: Express, NodeJS, Sequelize, Nodemailer, PostgreSQL, Axios, Bycryptjs, Json Web Token, Multer, 3rd API
                 </p>
               </div>
             </div>
@@ -346,13 +356,220 @@ export default function MyWorks() {
               </div>
               <div className="col-9" style={{ textAlign: "left" }}>
                 <div style={{ display: "flex", justifyContent: "flex-start", flexWrap: "wrap" }}>
-                  <a className="descriptiontext" data-aos="zoom-in-up" style={{ textDecoration: "none", color: "#B6EADA" }} href="https://github.com/dikyardiyanto17/p2-iproject-server" target="_blank">
+                  <a
+                    className="descriptiontext"
+                    data-aos="zoom-in-up"
+                    style={{ textDecoration: "none", color: "#B6EADA" }}
+                    href="https://github.com/dikyardiyanto17/p2-iproject-server"
+                    target="_blank"
+                  >
                     Server
                   </a>
                 </div>
                 <div style={{ display: "flex", justifyContent: "flex-start", flexWrap: "wrap" }}>
-                  <a className="descriptiontext" data-aos="zoom-in-up" style={{ textDecoration: "none", color: "#B6EADA" }} href="https://github.com/dikyardiyanto17/p2-iproject-client" target="_blank">
+                  <a
+                    className="descriptiontext"
+                    data-aos="zoom-in-up"
+                    style={{ textDecoration: "none", color: "#B6EADA" }}
+                    href="https://github.com/dikyardiyanto17/p2-iproject-client"
+                    target="_blank"
+                  >
                     Client
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="custom-shape-divider-top-1676191786" style={{ position: "relative", margin: "0", backgroundColor: "#B6EADA", zIndex: "-1" }} id="movinganimation">
+          <svg className="movinganimation" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+              className="shape-fill"
+            ></path>
+          </svg>
+        </div>
+        <div style={{ backgroundColor: "#B6EADA", paddingTop: "5%", color: "#03001C", padding: "10px" }}>
+          <div style={{ margin: "auto", textAlign: "Center", marginTop: "50px" }}>
+            <div className="d-flex col" style={{ textAlign: "left" }}>
+              <div className="col-3" style={{ marginLeft: "0px" }}>
+                <h2 data-aos="slide-right" className="worktitle">
+                  Git Search
+                </h2>
+              </div>
+              <div className="col-9" style={{ textAlign: "left", marginLeft: "0px" }}>
+                <img data-aos="zoom-in-up" id="tynkerlogo" src={MyLogo} style={{ height: "10vw" }} alt="" />
+              </div>
+            </div>
+          </div>
+          <div className="d-flex col" style={{ textAlign: "left" }}>
+            <div className="col-3" style={{ marginLeft: "0px" }}>
+              <h2 data-aos="slide-right" className="worktitle">
+                Screenshot
+              </h2>
+            </div>
+            <div className="col-9" style={{ textAlign: "left" }}>
+              <div data-aos="zoom-in-up">
+                <img className="glekscreenshot" src={GS1} style={{ width: "20vw", margin: "10px" }} alt="" />
+                <img className="glekscreenshot" src={GS2} style={{ width: "20vw", margin: "10px" }} alt="" />
+                <img className="glekscreenshot" src={GS3} style={{ width: "20vw", margin: "10px" }} alt="" />
+                <img className="glekscreenshot" src={GS4} style={{ width: "20vw", margin: "10px" }} alt="" />
+                <img className="glekscreenshot" src={GS5} style={{ width: "20vw", margin: "10px" }} alt="" />
+                <img className="glekscreenshot" src={GS6} style={{ width: "20vw", margin: "10px" }} alt="" />
+              </div>
+            </div>
+          </div>
+          <div className="d-flex col" style={{ textAlign: "left" }}>
+            <div className="col-3" style={{ marginLeft: "0px" }}>
+              <h2 data-aos="slide-right" className="worktitle">
+                Description
+              </h2>
+            </div>
+            <div className="col-9" style={{ textAlign: "left" }}>
+              <div style={{ display: "flex", justifyContent: "flex-start", flexWrap: "wrap", overflow: "hidden" }}>
+                <p className="descriptiontext" data-aos="zoom-in-up">
+                  GitSearch is a user-friendly web application that allows you to search for GitHub users and their repositories with ease. The app is built using TypeScript and React, providing a
+                  seamless and interactive experience. With GitSearch, you can quickly find the GitHub user you're looking for by simply typing in their username. You'll be presented with a profile of
+                  the user and their repositories.
+                </p>
+                <p className="descriptiontext" data-aos="zoom-in-up">
+                  I was solely responsible for this project as a Frontend Developer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="d-flex col" style={{ textAlign: "left" }}>
+            <div className="col-3" style={{ marginLeft: "0px" }}>
+              <h2 data-aos="slide-right" className="worktitle">
+                Tech Stack
+              </h2>
+            </div>
+            <div className="col-9" style={{ textAlign: "left", overflow: "hidden" }}>
+              <p className="descriptiontext" data-aos="zoom-in-up">
+                Frontend: ReactJS, 3rd API, Bootstrap
+              </p>
+            </div>
+          </div>
+          <div className="d-flex col" style={{ textAlign: "left" }}>
+            <div className="col-3" style={{ marginLeft: "0px" }}>
+              <h2 data-aos="slide-right" className="worktitle">
+                Try It
+              </h2>
+            </div>
+            <div className="col-9" style={{ textAlign: "left", overflow: "hidden" }}>
+              <iframe data-aos="zoom-in-up" src="https://gitsearch-17.web.app/" style={{ width: "65vw", height: "80vh" }} title="glek" />
+            </div>
+          </div>
+          <div className="d-flex col" style={{ textAlign: "left" }}>
+            <div className="col-3" style={{ marginLeft: "0px" }}>
+              <h2 data-aos="slide-right" className="worktitle">
+                Repository
+              </h2>
+            </div>
+            <div className="col-9" style={{ textAlign: "left" }}>
+              <div style={{ display: "flex", justifyContent: "flex-start", flexWrap: "wrap" }}>
+                <a
+                  className="descriptiontext"
+                  data-aos="zoom-in-up"
+                  style={{ textDecoration: "none", color: "#03001C" }}
+                  href="https://github.com/dikyardiyanto17/github-api-typescript"
+                  target="_blank"
+                >
+                  Github
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="custom-shape-divider-top-1676192244" style={{ position: "relative", margin: "0", backgroundColor: "#03001C", zIndex: "-1" }}>
+          <svg className="movinganimation" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+              className="shape-fill"
+            ></path>
+          </svg>
+        </div>
+        <div style={{ backgroundColor: "#03001C", paddingTop: "5%", color: "#B6EADA", padding: "10px" }}>
+          <div style={{ margin: "auto", textAlign: "Center", marginTop: "50px" }}>
+            <div className="d-flex col" style={{ textAlign: "left" }}>
+              <div className="col-3" style={{ marginLeft: "0px" }}>
+                <h2 data-aos="slide-right" className="worktitle">
+                  PokeSearch
+                </h2>
+              </div>
+              <div className="col-9" style={{ textAlign: "left", marginLeft: "0px" }}>
+                <img data-aos="zoom-in-up" id="tynkerlogo" src={MyLogo} style={{ height: "10vw" }} alt="" />
+              </div>
+            </div>
+            <div className="d-flex col" style={{ textAlign: "left" }}>
+              <div className="col-3" style={{ marginLeft: "0px" }}>
+                <h2 data-aos="slide-right" className="worktitle">
+                  Screenshot
+                </h2>
+              </div>
+              <div className="col-9" style={{ textAlign: "left" }}>
+                <div data-aos="zoom-in-up">
+                  <img className="tynkerscreenshot" src={PS1} style={{ width: "15vw", margin: "10px" }} alt="" />
+                  <img className="tynkerscreenshot" src={PS2} style={{ width: "15vw", margin: "10px" }} alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="d-flex col" style={{ textAlign: "left" }}>
+              <div className="col-3" style={{ marginLeft: "0px" }}>
+                <h2 data-aos="slide-right" className="worktitle">
+                  Description
+                </h2>
+              </div>
+              <div className="col-9" style={{ textAlign: "left" }}>
+                <div style={{ display: "flex", justifyContent: "flex-start", flexWrap: "wrap" }}>
+                  <p className="descriptiontext" data-aos="zoom-in-up">
+                    PokeSearch is a website that contains a comprehensive list of all the Pokemon, along with their details. You can browse through the list to find the Pokemon you're interested in
+                    and learn more about them.
+                  </p>
+                  <p className="descriptiontext" data-aos="zoom-in-up">
+                    I was solely responsible for this project as a Frontend Developer.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="d-flex col" style={{ textAlign: "left" }}>
+              <div className="col-3" style={{ marginLeft: "0px" }}>
+                <h2 data-aos="slide-right" className="worktitle">
+                  Tech Stack
+                </h2>
+              </div>
+              <div className="col-9" style={{ textAlign: "left", overflow: "hidden" }}>
+                <p className="descriptiontext" data-aos="zoom-in-up">
+                  Frontend: ReactJS, Bootstrap, 3rd API
+                </p>
+              </div>
+            </div>
+            <div className="d-flex col" style={{ textAlign: "left" }}>
+              <div className="col-3" style={{ marginLeft: "0px" }}>
+                <h2 data-aos="slide-right" className="worktitle">
+                  Demo
+                </h2>
+              </div>
+              <div className="col-9" style={{ textAlign: "left", overflow: "hidden" }}>
+                <iframe data-aos="zoom-in-up" src={PSDemo} style={{ width: "65vw", height: "80vh" }} title="demo" />
+              </div>
+            </div>
+            <div className="d-flex col" style={{ textAlign: "left" }}>
+              <div className="col-3" style={{ marginLeft: "0px" }}>
+                <h2 data-aos="slide-right" className="worktitle">
+                  Repository
+                </h2>
+              </div>
+              <div className="col-9" style={{ textAlign: "left" }}>
+                <div style={{ display: "flex", justifyContent: "flex-start", flexWrap: "wrap" }}>
+                  <a
+                    className="descriptiontext"
+                    data-aos="zoom-in-up"
+                    style={{ textDecoration: "none", color: "#B6EADA" }}
+                    href="https://github.com/dikyardiyanto17/pokemin-api"
+                    target="_blank"
+                  >
+                    Github
                   </a>
                 </div>
               </div>

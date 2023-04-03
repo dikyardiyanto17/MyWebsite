@@ -49,6 +49,12 @@ import PSDemo from "../assets/PokeSearch/PokeSearch.mp4";
 import IFS1 from "../assets/Info Seputar Indonesia/Info Seputar Indonesia (2).png";
 import IFS2 from "../assets/Info Seputar Indonesia/Info Seputar Indonesia (5).png";
 import IFSDemo from "../assets/Info Seputar Indonesia/Info Seputar Indonesia Demo.mp4";
+import BP1 from "../assets/PHP Laravel BlogPost/BlogPost (1).png";
+import BP2 from "../assets/PHP Laravel BlogPost/BlogPost (2).png";
+import BP3 from "../assets/PHP Laravel BlogPost/BlogPost (3).png";
+import BP4 from "../assets/PHP Laravel BlogPost/BlogPost (4).png";
+import BP5 from "../assets/PHP Laravel BlogPost/BlogPost (5).png";
+import BPDemo from "../assets/PHP Laravel BlogPost/BlogPost Demo.mp4";
 import "../assets/HoveringMyWorks.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -676,7 +682,7 @@ export default function MyWorks() {
             <div className="d-flex col" style={{ textAlign: "left" }}>
               <div className="col-3" style={{ marginLeft: "0px" }}>
                 <h2 data-aos="slide-right" className="worktitle">
-                  PokeSearch
+                  BlogPost
                 </h2>
               </div>
               <div className="col-9" style={{ textAlign: "left", marginLeft: "0px" }}>
@@ -691,8 +697,11 @@ export default function MyWorks() {
               </div>
               <div className="col-9" style={{ textAlign: "left" }}>
                 <div data-aos="zoom-in-up">
-                  <img className="tynkerscreenshot" src={PS1} style={{ width: "15vw", margin: "10px" }} alt="" />
-                  <img className="tynkerscreenshot" src={PS2} style={{ width: "15vw", margin: "10px" }} alt="" />
+                  <img className="tynkerscreenshot" src={BP1} style={{ width: "15vw", margin: "10px" }} alt="" />
+                  <img className="tynkerscreenshot" src={BP2} style={{ width: "15vw", margin: "10px" }} alt="" />
+                  <img className="tynkerscreenshot" src={BP3} style={{ width: "15vw", margin: "10px" }} alt="" />
+                  <img className="tynkerscreenshot" src={BP4} style={{ width: "15vw", margin: "10px" }} alt="" />
+                  <img className="tynkerscreenshot" src={BP5} style={{ width: "15vw", margin: "10px" }} alt="" />
                 </div>
               </div>
             </div>
@@ -705,11 +714,12 @@ export default function MyWorks() {
               <div className="col-9" style={{ textAlign: "left" }}>
                 <div style={{ display: "flex", justifyContent: "flex-start", flexWrap: "wrap" }}>
                   <p className="descriptiontext" data-aos="zoom-in-up">
-                    PokeSearch is a website that contains a comprehensive list of all the Pokemon, along with their details. You can browse through the list to find the Pokemon you're interested in
-                    and learn more about them.
+                    BlogPost is a website where users can create an account and post their own blog entries. They can also read and comment on other users' posts. It's a platform for people to share
+                    their thoughts, ideas, and experiences with others in a community-driven setting.
                   </p>
                   <p className="descriptiontext" data-aos="zoom-in-up">
-                    I was solely responsible for this project as a Frontend Developer.
+                    I was solely responsible for this project as a Full Stack Developer. From building the backend to creating the frontend, I handled it all. It was an exciting opportunity for me to
+                    showcase my skills and deliver a complete solution for the project.
                   </p>
                 </div>
               </div>
@@ -722,7 +732,10 @@ export default function MyWorks() {
               </div>
               <div className="col-9" style={{ textAlign: "left", overflow: "hidden" }}>
                 <p className="descriptiontext" data-aos="zoom-in-up">
-                  Frontend: ReactJS, Bootstrap, 3rd API
+                  Frontend: PHP Laravel, Bootstrap
+                </p>
+                <p className="descriptiontext" data-aos="zoom-in-up">
+                  Backend: MySQL
                 </p>
               </div>
             </div>
@@ -744,7 +757,7 @@ export default function MyWorks() {
               </div>
               <div className="col-9" style={{ textAlign: "left" }}>
                 <div style={{ display: "flex", justifyContent: "flex-start", flexWrap: "wrap" }}>
-                  <a className="descriptiontext" data-aos="zoom-in-up" style={{ textDecoration: "none", color: "#B6EADA" }} href="https://github.com/dikyardiyanto17/pokemin-api" target="_blank">
+                  <a className="descriptiontext" data-aos="zoom-in-up" style={{ textDecoration: "none", color: "#B6EADA" }} href="https://github.com/dikyardiyanto17/PHP-Project" target="_blank">
                     Github
                   </a>
                 </div>

@@ -153,7 +153,9 @@ export default function MyWorks() {
                 </h2>
               </div>
               <div className="col-9" style={{ textAlign: "left", overflow: "hidden" }}>
-                <iframe data-aos="zoom-in-up" src={Demo} style={{ width: "65vw", height: "80vh" }} title="demo" />
+                <video style={{ width: "65vw", height: "80vh" }} controls>
+                  <source src={Demo} type="video/mp4" />
+                </video>
               </div>
             </div>
             <div className="d-flex col" style={{ textAlign: "left" }}>
@@ -257,7 +259,9 @@ export default function MyWorks() {
               </h2>
             </div>
             <div className="col-9" style={{ textAlign: "left", overflow: "hidden" }}>
-              <iframe data-aos="zoom-in-up" src={NBTDemo} style={{ width: "65vw", height: "80vh" }} title="demo" />
+              <video style={{ width: "65vw", height: "80vh" }} controls>
+                <source src={NBTDemo} type="video/mp4" />
+              </video>
             </div>
           </div>
           <div className="d-flex col" style={{ textAlign: "left" }}>
@@ -354,7 +358,9 @@ export default function MyWorks() {
                 </h2>
               </div>
               <div className="col-9" style={{ textAlign: "left", overflow: "hidden" }}>
-                <iframe data-aos="zoom-in-up" src={YCSDemo} style={{ width: "65vw", height: "80vh" }} title="demo" />
+                <video style={{ width: "65vw", height: "80vh" }} controls>
+                  <source src={YCSDemo} type="video/mp4" />
+                </video>
               </div>
             </div>
             <div className="d-flex col" style={{ textAlign: "left" }}>
@@ -560,7 +566,9 @@ export default function MyWorks() {
                 </h2>
               </div>
               <div className="col-9" style={{ textAlign: "left", overflow: "hidden" }}>
-                <iframe data-aos="zoom-in-up" src={PSDemo} style={{ width: "65vw", height: "80vh" }} title="demo" />
+                <video style={{ width: "65vw", height: "80vh" }} controls>
+                  <source src={PSDemo} type="video/mp4" />
+                </video>
               </div>
             </div>
             <div className="d-flex col" style={{ textAlign: "left" }}>
@@ -651,7 +659,9 @@ export default function MyWorks() {
               </h2>
             </div>
             <div className="col-9" style={{ textAlign: "left", overflow: "hidden" }}>
-              <iframe data-aos="zoom-in-up" src={IFSDemo} style={{ width: "65vw", height: "80vh" }} title="glek" />
+              <video style={{ width: "65vw", height: "80vh" }} controls>
+                <source src={IFSDemo} type="video/mp4" />
+              </video>
             </div>
           </div>
           <div className="d-flex col" style={{ textAlign: "left" }}>
@@ -746,7 +756,9 @@ export default function MyWorks() {
                 </h2>
               </div>
               <div className="col-9" style={{ textAlign: "left", overflow: "hidden" }}>
-                <iframe data-aos="zoom-in-up" src={PSDemo} style={{ width: "65vw", height: "80vh" }} title="demo" />
+                <video style={{ width: "65vw", height: "80vh" }} controls>
+                  <source src={PSDemo} type="video/mp4" />
+                </video>
               </div>
             </div>
             <div className="d-flex col" style={{ textAlign: "left" }}>

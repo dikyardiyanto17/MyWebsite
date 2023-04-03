@@ -69,11 +69,11 @@ export default function MyWorks() {
   if (!delayed) {
     setTimeout(() => {
       setDelayed(true);
-    }, 2000);
+    }, 4000);
     return (
       <>
         <div style={{ backgroundColor: "#03001C", overflow: "hidden", height: "100vh" }}>
-          <div style={{ paddingTop: "100px", marginLeft: "-50%" }} id="loading">
+          <div style={{ paddingTop: "100px", marginLeft: "-50%" }} id="loading2">
             <img src={MyLogo} style={{ width: "20vw" }} alt="" />
           </div>
         </div>

@@ -28,6 +28,14 @@ import NB9 from "../assets/Niix Brands/Niix Branded Things (9).png";
 import NB10 from "../assets/Niix Brands/Niix Branded Things (10).png";
 import NB11 from "../assets/Niix Brands/Niix Branded Things (11).png";
 import NB12 from "../assets/Niix Brands/Niix Branded Things (12).png";
+import YCS1 from "../assets/Yugioh Card Selector/Yugioh Card Selector (1).png";
+import YCS2 from "../assets/Yugioh Card Selector/Yugioh Card Selector (2).png";
+import YCS3 from "../assets/Yugioh Card Selector/Yugioh Card Selector (3).png";
+import YCS4 from "../assets/Yugioh Card Selector/Yugioh Card Selector (4).png";
+import YCS5 from "../assets/Yugioh Card Selector/Yugioh Card Selector (5).png";
+import YCS6 from "../assets/Yugioh Card Selector/Yugioh Card Selector (6).png";
+import YCS7 from "../assets/Yugioh Card Selector/Yugioh Card Selector (7).png";
+import YCSDemo from "../assets/Yugioh Card Selector/Yugioh.mp4";
 import "../assets/HoveringMyWorks.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -162,7 +170,7 @@ export default function MyWorks() {
                 </h2>
               </div>
               <div className="col-9" style={{ textAlign: "left", marginLeft: "0px" }}>
-                <img data-aos="zoom-in-up" id="gleklogo" src={MyLogo} style={{ height: "10vh" }} alt="" />
+                <img data-aos="zoom-in-up" id="tynkerlogo" src={MyLogo} style={{ height: "10vw" }} alt="" />
               </div>
             </div>
           </div>
@@ -216,10 +224,10 @@ export default function MyWorks() {
             </div>
             <div className="col-9" style={{ textAlign: "left", overflow: "hidden" }}>
               <p className="descriptiontext" data-aos="zoom-in-up">
-                Frontend: VueJS, Pinia, SweetAlert2
+                Frontend: VueJS, Pinia, SweetAlert2, GoogleAuth
               </p>
               <p className="descriptiontext" data-aos="zoom-in-up">
-                Backend: Express, NodeJS, Sequelize, GoogleAuth, PostgreSQL, Json Web Token, Bycryptjs, Axios, Jest, Supertest
+                Backend: Express, NodeJS, Sequelize, PostgreSQL, Json Web Token, Bycryptjs, Axios, Jest, Supertest
               </p>
             </div>
           </div>
@@ -261,11 +269,11 @@ export default function MyWorks() {
             <div className="d-flex col" style={{ textAlign: "left" }}>
               <div className="col-3" style={{ marginLeft: "0px" }}>
                 <h2 data-aos="slide-right" className="worktitle">
-                  Tynker
+                  Yugioh Card Selector
                 </h2>
               </div>
               <div className="col-9" style={{ textAlign: "left", marginLeft: "0px" }}>
-                <img data-aos="zoom-in-up" id="tynkerlogo" src={LogoTynker} style={{ height: "10vw" }} alt="" />
+                <img data-aos="zoom-in-up" id="tynkerlogo" src={MyLogo} style={{ height: "10vw" }} alt="" />
               </div>
             </div>
             <div className="d-flex col" style={{ textAlign: "left" }}>
@@ -276,11 +284,13 @@ export default function MyWorks() {
               </div>
               <div className="col-9" style={{ textAlign: "left" }}>
                 <div data-aos="zoom-in-up">
-                  <img className="tynkerscreenshot" src={Asset3} style={{ width: "15vw", margin: "10px" }} alt="" />
-                  <img className="tynkerscreenshot" src={Asset4} style={{ width: "15vw", margin: "10px" }} alt="" />
-                  <img className="tynkerscreenshot" src={Asset5} style={{ width: "15vw", margin: "10px" }} alt="" />
-                  <img className="tynkerscreenshot" src={Asset1} style={{ width: "15vw", margin: "10px" }} alt="" />
-                  <img className="tynkerscreenshot" src={Asset2} style={{ width: "15vw", margin: "10px" }} alt="" />
+                  <img className="tynkerscreenshot" src={YCS1} style={{ width: "15vw", margin: "10px" }} alt="" />
+                  <img className="tynkerscreenshot" src={YCS2} style={{ width: "15vw", margin: "10px" }} alt="" />
+                  <img className="tynkerscreenshot" src={YCS3} style={{ width: "15vw", margin: "10px" }} alt="" />
+                  <img className="tynkerscreenshot" src={YCS4} style={{ width: "15vw", margin: "10px" }} alt="" />
+                  <img className="tynkerscreenshot" src={YCS5} style={{ width: "15vw", margin: "10px" }} alt="" />
+                  <img className="tynkerscreenshot" src={YCS6} style={{ width: "15vw", margin: "10px" }} alt="" />
+                  <img className="tynkerscreenshot" src={YCS7} style={{ width: "15vw", margin: "10px" }} alt="" />
                 </div>
               </div>
             </div>
@@ -293,13 +303,12 @@ export default function MyWorks() {
               <div className="col-9" style={{ textAlign: "left" }}>
                 <div style={{ display: "flex", justifyContent: "flex-start", flexWrap: "wrap" }}>
                   <p className="descriptiontext" data-aos="zoom-in-up">
-                    Tynker is an e-learning app for kids that teaches counting, object recognition, and learn basic English using voice recognition would likely include interactive games and exercises
-                    that help children practice these skills in a fun and engaging way. The app might use colorful graphics and simple animations to capture children's attention and make learning more
-                    enjoyable. Some of the features that the app might include are counting games that help children learn to count numbers, object recognition exercises that help children identify
-                    and name different objects, and English language activities that teach basic vocabulary and sentence structure.
+                    Yugioh Card Selector is a website that helps you build your own custom deck for the Yugioh card game. You can also search for cards based on your preferences and add them to your
+                    collection. It's an easy-to-use tool for all Yugioh players, whether you're new to the game or a seasoned pro.
                   </p>
                   <p className="descriptiontext" data-aos="zoom-in-up">
-                    Our team of four created this project, and I am the Backend Engineer on the team.
+                    I was solely responsible for this project as a Full Stack Developer. From building the backend to creating the frontend, I handled it all. It was an exciting opportunity for me to
+                    showcase my skills and deliver a complete solution for the project.
                   </p>
                 </div>
               </div>
@@ -312,10 +321,10 @@ export default function MyWorks() {
               </div>
               <div className="col-9" style={{ textAlign: "left", overflow: "hidden" }}>
                 <p className="descriptiontext" data-aos="zoom-in-up">
-                  Frontend: React Native, expo, voice recognition
+                  Frontend: VueJS, Pinia, SweetAlert2
                 </p>
                 <p className="descriptiontext" data-aos="zoom-in-up">
-                  Backend: Express, node js, sequelize, aws, docker, nodemailer, postgreSQL
+                  Backend: Express, NodeJS, Sequelize, Nodemailer, PostgreSQL, Axios, Bycryptjs, Json Web Token, Multer
                 </p>
               </div>
             </div>
@@ -326,7 +335,7 @@ export default function MyWorks() {
                 </h2>
               </div>
               <div className="col-9" style={{ textAlign: "left", overflow: "hidden" }}>
-                <iframe data-aos="zoom-in-up" src={Demo} style={{ width: "65vw", height: "80vh" }} title="demo" />
+                <iframe data-aos="zoom-in-up" src={YCSDemo} style={{ width: "65vw", height: "80vh" }} title="demo" />
               </div>
             </div>
             <div className="d-flex col" style={{ textAlign: "left" }}>
@@ -337,8 +346,13 @@ export default function MyWorks() {
               </div>
               <div className="col-9" style={{ textAlign: "left" }}>
                 <div style={{ display: "flex", justifyContent: "flex-start", flexWrap: "wrap" }}>
-                  <a className="descriptiontext" data-aos="zoom-in-up" style={{ textDecoration: "none", color: "#B6EADA" }} href="https://github.com/Tynker-eustoma" target="_blank">
-                    Github
+                  <a className="descriptiontext" data-aos="zoom-in-up" style={{ textDecoration: "none", color: "#B6EADA" }} href="https://github.com/dikyardiyanto17/p2-iproject-server" target="_blank">
+                    Server
+                  </a>
+                </div>
+                <div style={{ display: "flex", justifyContent: "flex-start", flexWrap: "wrap" }}>
+                  <a className="descriptiontext" data-aos="zoom-in-up" style={{ textDecoration: "none", color: "#B6EADA" }} href="https://github.com/dikyardiyanto17/p2-iproject-client" target="_blank">
+                    Client
                   </a>
                 </div>
               </div>

@@ -46,6 +46,9 @@ import GSDemo from "../assets/GitSearch/GSDemo.mp4";
 import PS1 from "../assets/PokeSearch/PokeSearch (1).png";
 import PS2 from "../assets/PokeSearch/PokeSearch (2).png";
 import PSDemo from "../assets/PokeSearch/PokeSearch.mp4";
+import IFS1 from "../assets/Info Seputar Indonesia/Info Seputar Indonesia (2).png";
+import IFS2 from "../assets/Info Seputar Indonesia/Info Seputar Indonesia (5).png";
+import IFSDemo from "../assets/Info Seputar Indonesia/Info Seputar Indonesia Demo.mp4";
 import "../assets/HoveringMyWorks.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -562,13 +565,186 @@ export default function MyWorks() {
               </div>
               <div className="col-9" style={{ textAlign: "left" }}>
                 <div style={{ display: "flex", justifyContent: "flex-start", flexWrap: "wrap" }}>
-                  <a
-                    className="descriptiontext"
-                    data-aos="zoom-in-up"
-                    style={{ textDecoration: "none", color: "#B6EADA" }}
-                    href="https://github.com/dikyardiyanto17/pokemin-api"
-                    target="_blank"
-                  >
+                  <a className="descriptiontext" data-aos="zoom-in-up" style={{ textDecoration: "none", color: "#B6EADA" }} href="https://github.com/dikyardiyanto17/pokemin-api" target="_blank">
+                    Github
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="custom-shape-divider-top-1676191786" style={{ position: "relative", margin: "0", backgroundColor: "#B6EADA", zIndex: "-1" }} id="movinganimation">
+          <svg className="movinganimation" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+              className="shape-fill"
+            ></path>
+          </svg>
+        </div>
+        <div style={{ backgroundColor: "#B6EADA", paddingTop: "5%", color: "#03001C", padding: "10px" }}>
+          <div style={{ margin: "auto", textAlign: "Center", marginTop: "50px" }}>
+            <div className="d-flex col" style={{ textAlign: "left" }}>
+              <div className="col-3" style={{ marginLeft: "0px" }}>
+                <h2 data-aos="slide-right" className="worktitle">
+                  Info Seputar Indonesia
+                </h2>
+              </div>
+              <div className="col-9" style={{ textAlign: "left", marginLeft: "0px" }}>
+                <img data-aos="zoom-in-up" id="tynkerlogo" src={MyLogo} style={{ height: "10vw" }} alt="" />
+              </div>
+            </div>
+          </div>
+          <div className="d-flex col" style={{ textAlign: "left" }}>
+            <div className="col-3" style={{ marginLeft: "0px" }}>
+              <h2 data-aos="slide-right" className="worktitle">
+                Screenshot
+              </h2>
+            </div>
+            <div className="col-9" style={{ textAlign: "left" }}>
+              <div data-aos="zoom-in-up">
+                <img className="glekscreenshot" src={IFS1} style={{ width: "20vw", margin: "10px" }} alt="" />
+                <img className="glekscreenshot" src={IFS2} style={{ width: "20vw", margin: "10px" }} alt="" />
+              </div>
+            </div>
+          </div>
+          <div className="d-flex col" style={{ textAlign: "left" }}>
+            <div className="col-3" style={{ marginLeft: "0px" }}>
+              <h2 data-aos="slide-right" className="worktitle">
+                Description
+              </h2>
+            </div>
+            <div className="col-9" style={{ textAlign: "left" }}>
+              <div style={{ display: "flex", justifyContent: "flex-start", flexWrap: "wrap", overflow: "hidden" }}>
+                <p className="descriptiontext" data-aos="zoom-in-up">
+                  Info Seputar Indonesia is a website that provides the latest news about Indonesia, including current events and popular topics. In addition to news, it also features a list of
+                  Indonesian heroes who have made significant contributions to the country. You can also find a selection of popular movies to watch. It's a one-stop-shop for anyone looking to stay
+                  up-to-date on what's happening in Indonesia.
+                </p>
+                <p className="descriptiontext" data-aos="zoom-in-up">
+                  I was solely responsible for this project as a Frontend Developer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="d-flex col" style={{ textAlign: "left" }}>
+            <div className="col-3" style={{ marginLeft: "0px" }}>
+              <h2 data-aos="slide-right" className="worktitle">
+                Tech Stack
+              </h2>
+            </div>
+            <div className="col-9" style={{ textAlign: "left", overflow: "hidden" }}>
+              <p className="descriptiontext" data-aos="zoom-in-up">
+                Frontend: ReactJS, Redux, 3rd API
+              </p>
+            </div>
+          </div>
+          <div className="d-flex col" style={{ textAlign: "left" }}>
+            <div className="col-3" style={{ marginLeft: "0px" }}>
+              <h2 data-aos="slide-right" className="worktitle">
+                Demo
+              </h2>
+            </div>
+            <div className="col-9" style={{ textAlign: "left", overflow: "hidden" }}>
+              <iframe data-aos="zoom-in-up" src={IFSDemo} style={{ width: "65vw", height: "80vh" }} title="glek" />
+            </div>
+          </div>
+          <div className="d-flex col" style={{ textAlign: "left" }}>
+            <div className="col-3" style={{ marginLeft: "0px" }}>
+              <h2 data-aos="slide-right" className="worktitle">
+                Repository
+              </h2>
+            </div>
+            <div className="col-9" style={{ textAlign: "left" }}>
+              <div style={{ display: "flex", justifyContent: "flex-start", flexWrap: "wrap" }}>
+                <a className="descriptiontext" data-aos="zoom-in-up" style={{ textDecoration: "none", color: "#03001C" }} href="https://github.com/dikyardiyanto17/react-api" target="_blank">
+                  Github
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="custom-shape-divider-top-1676192244" style={{ position: "relative", margin: "0", backgroundColor: "#03001C", zIndex: "-1" }}>
+          <svg className="movinganimation" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+              className="shape-fill"
+            ></path>
+          </svg>
+        </div>
+        <div style={{ backgroundColor: "#03001C", paddingTop: "5%", color: "#B6EADA", padding: "10px" }}>
+          <div style={{ margin: "auto", textAlign: "Center", marginTop: "50px" }}>
+            <div className="d-flex col" style={{ textAlign: "left" }}>
+              <div className="col-3" style={{ marginLeft: "0px" }}>
+                <h2 data-aos="slide-right" className="worktitle">
+                  PokeSearch
+                </h2>
+              </div>
+              <div className="col-9" style={{ textAlign: "left", marginLeft: "0px" }}>
+                <img data-aos="zoom-in-up" id="tynkerlogo" src={MyLogo} style={{ height: "10vw" }} alt="" />
+              </div>
+            </div>
+            <div className="d-flex col" style={{ textAlign: "left" }}>
+              <div className="col-3" style={{ marginLeft: "0px" }}>
+                <h2 data-aos="slide-right" className="worktitle">
+                  Screenshot
+                </h2>
+              </div>
+              <div className="col-9" style={{ textAlign: "left" }}>
+                <div data-aos="zoom-in-up">
+                  <img className="tynkerscreenshot" src={PS1} style={{ width: "15vw", margin: "10px" }} alt="" />
+                  <img className="tynkerscreenshot" src={PS2} style={{ width: "15vw", margin: "10px" }} alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="d-flex col" style={{ textAlign: "left" }}>
+              <div className="col-3" style={{ marginLeft: "0px" }}>
+                <h2 data-aos="slide-right" className="worktitle">
+                  Description
+                </h2>
+              </div>
+              <div className="col-9" style={{ textAlign: "left" }}>
+                <div style={{ display: "flex", justifyContent: "flex-start", flexWrap: "wrap" }}>
+                  <p className="descriptiontext" data-aos="zoom-in-up">
+                    PokeSearch is a website that contains a comprehensive list of all the Pokemon, along with their details. You can browse through the list to find the Pokemon you're interested in
+                    and learn more about them.
+                  </p>
+                  <p className="descriptiontext" data-aos="zoom-in-up">
+                    I was solely responsible for this project as a Frontend Developer.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="d-flex col" style={{ textAlign: "left" }}>
+              <div className="col-3" style={{ marginLeft: "0px" }}>
+                <h2 data-aos="slide-right" className="worktitle">
+                  Tech Stack
+                </h2>
+              </div>
+              <div className="col-9" style={{ textAlign: "left", overflow: "hidden" }}>
+                <p className="descriptiontext" data-aos="zoom-in-up">
+                  Frontend: ReactJS, Bootstrap, 3rd API
+                </p>
+              </div>
+            </div>
+            <div className="d-flex col" style={{ textAlign: "left" }}>
+              <div className="col-3" style={{ marginLeft: "0px" }}>
+                <h2 data-aos="slide-right" className="worktitle">
+                  Demo
+                </h2>
+              </div>
+              <div className="col-9" style={{ textAlign: "left", overflow: "hidden" }}>
+                <iframe data-aos="zoom-in-up" src={PSDemo} style={{ width: "65vw", height: "80vh" }} title="demo" />
+              </div>
+            </div>
+            <div className="d-flex col" style={{ textAlign: "left" }}>
+              <div className="col-3" style={{ marginLeft: "0px" }}>
+                <h2 data-aos="slide-right" className="worktitle">
+                  Repository
+                </h2>
+              </div>
+              <div className="col-9" style={{ textAlign: "left" }}>
+                <div style={{ display: "flex", justifyContent: "flex-start", flexWrap: "wrap" }}>
+                  <a className="descriptiontext" data-aos="zoom-in-up" style={{ textDecoration: "none", color: "#B6EADA" }} href="https://github.com/dikyardiyanto17/pokemin-api" target="_blank">
                     Github
                   </a>
                 </div>

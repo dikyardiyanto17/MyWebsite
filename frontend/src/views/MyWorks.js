@@ -55,6 +55,17 @@ import BP3 from "../assets/PHP Laravel BlogPost/BlogPost (3).png";
 import BP4 from "../assets/PHP Laravel BlogPost/BlogPost (4).png";
 import BP5 from "../assets/PHP Laravel BlogPost/BlogPost (5).png";
 import BPDemo from "../assets/PHP Laravel BlogPost/BlogPost Demo.mp4";
+import PP1 from "../assets/Pair Project/Pair Project (1).png";
+import PP2 from "../assets/Pair Project/Pair Project (2).png";
+import PP3 from "../assets/Pair Project/Pair Project (3).png";
+import PP4 from "../assets/Pair Project/Pair Project (4).png";
+import PP5 from "../assets/Pair Project/Pair Project (5).png";
+import PP6 from "../assets/Pair Project/Pair Project (6).png";
+import PP7 from "../assets/Pair Project/Pair Project (7).png";
+import PP8 from "../assets/Pair Project/Pair Project (8).png";
+import PP9 from "../assets/Pair Project/Pair Project (9).png";
+import PP10 from "../assets/Pair Project/Pair Project (10).png";
+import PPDemo from "../assets/Pair Project/PPDemo.mp4";
 import "../assets/HoveringMyWorks.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -142,7 +153,7 @@ export default function MyWorks() {
                   Frontend: React Native, Expo, Voice recognition, Redux
                 </p>
                 <p className="descriptiontext" data-aos="zoom-in-up">
-                  Backend: Express, NodeJS, Sequelize, AWS EC2, Docker, Nodemailer, PostgreSQL, Json Web Token, Bycryptjs, Ioredis, Jest, Supertest
+                  Backend: Express, NodeJS, Sequelize, AWS EC2, Docker, Nodemailer, PostgreSQL, Json Web Token, Bcryptjs, Ioredis, Jest, Supertest
                 </p>
               </div>
             </div>
@@ -248,7 +259,7 @@ export default function MyWorks() {
                 Frontend: VueJS, Pinia, SweetAlert2, GoogleAuth
               </p>
               <p className="descriptiontext" data-aos="zoom-in-up">
-                Backend: Express, NodeJS, Sequelize, PostgreSQL, Json Web Token, Bycryptjs, Axios, Jest, Supertest
+                Backend: Express, NodeJS, Sequelize, PostgreSQL, Json Web Token, Bcryptjs, Axios, Jest, Supertest
               </p>
             </div>
           </div>
@@ -347,7 +358,7 @@ export default function MyWorks() {
                   Frontend: VueJS, Pinia, SweetAlert2
                 </p>
                 <p className="descriptiontext" data-aos="zoom-in-up">
-                  Backend: Express, NodeJS, Sequelize, Nodemailer, PostgreSQL, Axios, Bycryptjs, Json Web Token, Multer, 3rd API
+                  Backend: Express, NodeJS, Sequelize, Nodemailer, PostgreSQL, Axios, Bcryptjs, Json Web Token, Multer, 3rd API
                 </p>
               </div>
             </div>
@@ -600,6 +611,98 @@ export default function MyWorks() {
             <div className="d-flex col" style={{ textAlign: "left" }}>
               <div className="col-3" style={{ marginLeft: "0px" }}>
                 <h2 data-aos="slide-right" className="worktitle">
+                  Gabut
+                </h2>
+              </div>
+              <div className="col-9" style={{ textAlign: "left", marginLeft: "0px" }}>
+                <img data-aos="zoom-in-up" id="tynkerlogo" src={MyLogo} style={{ height: "10vw" }} alt="" />
+              </div>
+            </div>
+          </div>
+          <div className="d-flex col" style={{ textAlign: "left" }}>
+            <div className="col-3" style={{ marginLeft: "0px" }}>
+              <h2 data-aos="slide-right" className="worktitle">
+                Screenshot
+              </h2>
+            </div>
+            <div className="col-9" style={{ textAlign: "left" }}>
+              <div data-aos="zoom-in-up">
+                <img className="glekscreenshot" src={PP1} style={{ width: "20vw", margin: "10px" }} alt="" />
+                <img className="glekscreenshot" src={PP2} style={{ width: "20vw", margin: "10px" }} alt="" />
+                <img className="glekscreenshot" src={PP3} style={{ width: "20vw", margin: "10px" }} alt="" />
+                <img className="glekscreenshot" src={PP4} style={{ width: "20vw", margin: "10px" }} alt="" />
+                <img className="glekscreenshot" src={PP6} style={{ width: "20vw", margin: "10px" }} alt="" />
+                <img className="glekscreenshot" src={PP7} style={{ width: "20vw", margin: "10px" }} alt="" />
+                <img className="glekscreenshot" src={PP8} style={{ width: "20vw", margin: "10px" }} alt="" />
+                <img className="glekscreenshot" src={PP9} style={{ width: "20vw", margin: "10px" }} alt="" />
+                <img className="glekscreenshot" src={PP10} style={{ width: "20vw", margin: "10px" }} alt="" />
+              </div>
+            </div>
+          </div>
+          <div className="d-flex col" style={{ textAlign: "left" }}>
+            <div className="col-3" style={{ marginLeft: "0px" }}>
+              <h2 data-aos="slide-right" className="worktitle">
+                Description
+              </h2>
+            </div>
+            <div className="col-9" style={{ textAlign: "left" }}>
+              <div style={{ display: "flex", justifyContent: "flex-start", flexWrap: "wrap", overflow: "hidden" }}>
+                <p className="descriptiontext" data-aos="zoom-in-up">
+                  Gabut is a web application where you can create an account, log in, and post using hashtags. It's a great way to connect with others who share your interests and hobbies.
+                </p>
+                <p className="descriptiontext" data-aos="zoom-in-up">
+                  I worked on a project with one other person while I was learning at Hacktiv8 Bootcamp. My role was Full Stack Developer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="d-flex col" style={{ textAlign: "left" }}>
+            <div className="col-3" style={{ marginLeft: "0px" }}>
+              <h2 data-aos="slide-right" className="worktitle">
+                Tech Stack
+              </h2>
+            </div>
+            <div className="col-9" style={{ textAlign: "left", overflow: "hidden" }}>
+              <p className="descriptiontext" data-aos="zoom-in-up">
+                Frontend: EJS, HTML & CSS
+              </p>
+              <p className="descriptiontext" data-aos="zoom-in-up">
+                Backend: Express, NodeJS, PostgreSQL, Sequelize, Express Session
+              </p>
+            </div>
+          </div>
+          <div className="d-flex col" style={{ textAlign: "left" }}>
+            <div className="col-3" style={{ marginLeft: "0px" }}>
+              <h2 data-aos="slide-right" className="worktitle">
+                Demo
+              </h2>
+            </div>
+            <div className="col-9" style={{ textAlign: "left", overflow: "hidden" }}>
+              <video style={{ width: "65vw", height: "80vh" }} controls>
+                <source src={PPDemo} type="video/mp4" />
+              </video>
+            </div>
+          </div>
+          <div className="d-flex col" style={{ textAlign: "left" }}>
+            <div className="col-3" style={{ marginLeft: "0px" }}>
+              <h2 data-aos="slide-right" className="worktitle">
+                Repository
+              </h2>
+            </div>
+            <div className="col-9" style={{ textAlign: "left" }}>
+              <div style={{ display: "flex", justifyContent: "flex-start", flexWrap: "wrap" }}>
+                <a className="descriptiontext" data-aos="zoom-in-up" style={{ textDecoration: "none", color: "#03001C" }} href="https://github.com/dikyardiyanto17/pairproject" target="_blank">
+                  Github
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <div style={{ backgroundColor: "#B6EADA", paddingTop: "5%", color: "#03001C", padding: "10px" }}>
+          <div style={{ margin: "auto", textAlign: "Center", marginTop: "50px" }}>
+            <div className="d-flex col" style={{ textAlign: "left" }}>
+              <div className="col-3" style={{ marginLeft: "0px" }}>
+                <h2 data-aos="slide-right" className="worktitle">
                   Info Seputar Indonesia
                 </h2>
               </div>
@@ -678,7 +781,7 @@ export default function MyWorks() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="custom-shape-divider-top-1676192244" style={{ position: "relative", margin: "0", backgroundColor: "#03001C", zIndex: "-1" }}>
           <svg className="movinganimation" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
             <path

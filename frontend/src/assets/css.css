@@ -124,4 +124,8 @@
     height: auto;
     overflow-y: auto;
   }
+
+  .worktitle {
+    font-size: 20px;
+  }
 }

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import '../assets/css.css'
-import Resume from '../assets/RESUME - DIKY ARDIYANTO.pdf'
+import Resume from '../assets/RESUME-DIKY_ARDIYANTO.pdf'
 
 
 function NavScrollExample() {
